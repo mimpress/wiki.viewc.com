@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: WIKI for维C
+tagline: 享受自己动手的乐趣
 ---
 
-## 最新的内容
+## 最新内容
 
 <ul class="posts">
   {% for post in site.posts %}
