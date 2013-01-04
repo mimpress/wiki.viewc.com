@@ -1,6 +1,6 @@
 ---
 layout: page
-title: WIKI for维C
+title: WIKI for 维C
 tagline: 享受自己动手的乐趣
 ---
 
