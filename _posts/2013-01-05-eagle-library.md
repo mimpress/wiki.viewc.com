@@ -7,7 +7,6 @@ tags: [eagle]
 ---
 {% include JB/setup %}
 
-# Eagle元件库
 
 ## Mac下的使用问题
 
