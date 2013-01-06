@@ -9,6 +9,8 @@ tags: []
 
 Makeblock号称是要做开源硬件的乐高，从kickstarter上面的募资情况来看还算乐观。
 
+![makeblock做的海滩行走兽](http://ww2.sinaimg.cn/mw690/72f2af1bjw1dzt7kix96wj.jpg)
+
 ## 国内如何购买？
 
 见[分销商页面](http://www.makeblock.cc/distributors/), 目前国内很少能买到，估计需要代购:
