@@ -11,6 +11,8 @@ Arduino Due 是 Arduino 家族新的微控制器板，这是首个采用 32 位 
 
 **注意它的工作电压是3.3v**，和之前的arduino都不一样
 
+![arduino due](http://ww1.sinaimg.cn/large/a74ecc4cjw1e0jtvhjvy0j.jpg)
+
 Arduino Due 提供 54 个数字输入输出管脚（其中 12 个可用于 PWM 输出，支持可选分辨率），12 个模拟输入，4个 UARTs（硬件串口）和两个 DAC 输出（数模转换），84 MHz 晶振，两个 USB 口，一个电源插口，一个 ICSP 头，一个 JTAG 头和一个 Reset 按钮。I/O 管脚最大可提供 3.3v 电源，注意 5 伏电压会损坏开发板。
 
 ## 售价
