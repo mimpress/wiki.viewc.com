@@ -19,6 +19,14 @@ tags: [eagle]
 1. Eagle will prompt to create the directory if it does not already exist. Note the location and choose Yes to create the directory.
 1. Restart Eagle. The library should be now be usable.
 
+### 元件库同步
+
+最简单的办法就是通过Dropbox同步，把自定义的lbr文件放在Dropbox下，然后做一个软链接，例如：
+
+```
+ln -s ~/Dropbox/custom.lbr your-dest.lbr
+```
+
 ## 参考资料
 
 * [元件库的绘制](http://www.geek-workshop.com/thread-94-1-1.html)
