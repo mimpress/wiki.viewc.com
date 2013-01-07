@@ -26,6 +26,18 @@ tags: [eagle]
 ln -s ~/Dropbox/custom.lbr your-dest.lbr
 ```
 
+## 元件库的分类
+
+因为接触元器件的英文比较少，所以要从元件库里找到想要的元件，是个很麻烦的事情。常用的有：
+
+* Support --- 电源符号，晶振，蜂鸣器，电池等等
+* Switch_relay --- 开关和继电器
+* Transistor&Diode --- 三极管/Mosfet/二极管/LED等
+
+### 第三方元件库
+
+* [SparkFun](https://github.com/sparkfun/SparkFun-Eagle-Libraries) - 分类很好的元件库，感觉比eagle自带的要好找
+
 ## 参考资料
 
 * [元件库的绘制](http://www.geek-workshop.com/thread-94-1-1.html)
