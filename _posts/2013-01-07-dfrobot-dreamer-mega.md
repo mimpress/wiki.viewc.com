@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DFRobot的 Dreamer MEGA主板"
+title: "DFRobot的Dreamer MEGA主板"
 description: ""
 category: 
 tags: [arduino]
