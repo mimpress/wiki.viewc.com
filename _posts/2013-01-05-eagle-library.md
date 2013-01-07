@@ -40,6 +40,8 @@ ln -s ~/Dropbox/custom.lbr your-dest.lbr
 
 ## 参考资料
 
+注：这两个链接是针对5.x系列的，有些脱节
+
 * [元件库的绘制](http://www.geek-workshop.com/thread-94-1-1.html)
 * [元件库的提取方法](http://www.geek-workshop.com/thread-427-1-1.html)
 
