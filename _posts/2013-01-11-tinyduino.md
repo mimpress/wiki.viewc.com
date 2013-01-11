@@ -13,7 +13,7 @@ tags: [arduino]
 * 主板背面是钮扣电池槽
 * 没有内建的电压转换，因为体积小。所以输入电压不要超过5.6v。
 * 烧写程序需要使用它提供的底板。
-* 完全开源，电路图，原理图以及3D效果图都在它的网站上提供了。
+* 完全开源，电路图，原理图以及3D效果图都在它的网站上提供了。[^github]
 
 做为姐妹版，还有TinyLily适合穿戴式设计，比一块硬币还要小。可参见其官方网站[^tinycircuits]
 
@@ -31,12 +31,9 @@ tags: [arduino]
 
 ![扩展板背面](http://ww1.sinaimg.cn/large/a74e55b4jw1e0pe68iy7qj.jpg)
 
-## 源码
-
-[github](https://github.com/TinyCircuits)
-
 ## Kickstarter
 
 tiny circuits在kickstarter上已经有6个成功集资的项目，多数项目都和arduino相关。
 
 [^tinycircuits]: [官方网站](http://tiny-circuits.com)
+[^github]: 源码在 [github](https://github.com/TinyCircuits)
