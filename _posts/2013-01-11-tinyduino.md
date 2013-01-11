@@ -39,4 +39,4 @@ tags: [arduino]
 
 tiny circuits在kickstarter上已经有6个成功集资的项目，多数项目都和arduino相关。
 
-[^tinycircuits]: 官方网站为tiny-circuits.com
+[^tinycircuits]: [官方网站](http://tiny-circuits.com)
