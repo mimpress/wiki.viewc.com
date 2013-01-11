@@ -15,7 +15,7 @@ tags: [arduino]
 * 烧写程序需要使用它提供的底板。
 * 完全开源，电路图，原理图以及3D效果图都在它的网站上提供了。
 
-做为姐妹版，还有TinyLily适合穿戴式设计，比一块硬币还要小。可参见其官方网站[^tiny circuits]
+做为姐妹版，还有TinyLily适合穿戴式设计，比一块硬币还要小。可参见其官方网站[^tinycircuits]
 
 ## 图片 
 
@@ -39,4 +39,4 @@ tags: [arduino]
 
 tiny circuits在kickstarter上已经有6个成功集资的项目，多数项目都和arduino相关。
 
-[^tiny circuits](官方网站为tiny-circuits.com)
+[^tinycircuits]: 官方网站为tiny-circuits.com
