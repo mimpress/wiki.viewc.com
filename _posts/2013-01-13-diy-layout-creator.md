@@ -3,7 +3,7 @@ layout: post
 title: "Diy layout creator"
 description: "万能板电路设计工具"
 category: 
-tags: [电子电路 软件]
+tags: ["电子电路","软件"]
 ---
 {% include JB/setup %}
 
