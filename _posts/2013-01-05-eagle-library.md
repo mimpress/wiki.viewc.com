@@ -3,7 +3,7 @@ layout: post
 title: "Eagle Library"
 description: "元件库"
 category: "电子电路"
-tags: [eagle]
+tags: [eagle, 软件]
 ---
 {% include JB/setup %}
 
