@@ -3,7 +3,7 @@ layout: post
 title: "酸奶机"
 description: ""
 category: 家用电器
-tags: []
+tags: [milk]
 ---
 {% include JB/setup %}
 
