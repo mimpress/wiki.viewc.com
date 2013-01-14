@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Eagle Library"
+title: "Eagle元件库"
 description: "元件库"
 category: "电子电路"
 tags: [eagle, 软件]

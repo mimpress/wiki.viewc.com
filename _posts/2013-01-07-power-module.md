@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "power module"
+title: "电源模块"
 description: ""
 category: 
 tags: []

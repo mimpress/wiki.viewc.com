@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Yogurt Maker"
+title: "酸奶机"
 description: ""
 category: 家用电器
 tags: []
