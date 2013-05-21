@@ -69,6 +69,6 @@ BlueShield does not require any additional library for Arduino. There is no modi
 
 ## Hardware Overview
 
-<img src="http://i.ebayimg.com/t/Bluetooth-4-0-shield-for-arduino-/00/s/NTMzWDgwMA==/z/SXcAAOxy4dBRmpmE/$(KGrHqJ,!l!FGZGVBB0)BRmpmER0f!~~60_12.JPG" alt="BlueShield">
+<img src="http://i.ebayimg.com/t/Bluetooth-4-0-shield-for-arduino-/00/s/NTMzWDgwMA==/z/MQwAAMXQMfZRmpmK/$T2eC16d,!y0E9s2S7)CeBRmpmKWD5!~~60_12.JPG" alt="BlueShield">
 
 <img alt="BlueShield" src="http://i.ebayimg.com/t/Bluetooth-4-0-shield-for-arduino-/00/s/NTMzWDgwMA==/z/SXcAAOxy4dBRmpmE/$(KGrHqJ,!l!FGZGVBB0)BRmpmER0f!~~60_12.JPG">
