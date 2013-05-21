@@ -38,7 +38,7 @@ Devices not in the above list does not have the hardware to support Bluetooth 4.
 
 ## How to use?
 
-* Connect pins from BlueShield to Arduino board
+Connect pins from BlueShield to Arduino board
  * 5V > 5V
  * GND > GND
  * TXD > Default TX (Pin 0)
@@ -49,7 +49,7 @@ Devices not in the above list does not have the hardware to support Bluetooth 4.
 BlueShield does not require any additional library for Arduino. There is no modification required for your iOS App if it is based on our iOS Framework, however small changes on your sketch is needed. Please look at our sample codes in our SDK for more information. 
 
 * Download app [LightBlue](https://itunes.apple.com/app/lightblue/id557428110?mt=8) from Apple iTunes Store.
-* Turn on Bluetooth on your iOS device. *Please note that BlueShield or any Bluetooth Low Energy device will not show in the “Devices” list as pairing to BLE device is not required*
+* Turn on Bluetooth on your iOS device. **Please note that BlueShield or any Bluetooth Low Energy device will not show in the “Devices” list as pairing to BLE device is not required**
 * Connect pins from Blueshield to Arduino.
 * Start LightBlue App and you will find our device.
 
