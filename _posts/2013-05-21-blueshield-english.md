@@ -12,11 +12,11 @@ The BlueShield for Arduino is a Shield that enables Arduino projects to communic
 
 Simply attach the BLE Shield to an Arduino and write and read data to and from the Arduino using the Serial Port. 
 
+It has a footprint as small as 19mm x 38mm. Hopefully it will simplify your overall design/development cycle.
+
 ## How does the Ble shield work?
 
-It uses TI CC2540 single chip Bluetooth. It has a footprint as small as 19mm x 38mm. Hopefully it will simplify your overall design/development cycle.
-
-It provides two services, where two services are BLE related services which are mandatory for BLE peripherals, and one service which is specific to the BLE Shield, the BLE Shield Service.
+It uses TI CC2540 single chip Bluetooth. It provides two services, where two services are BLE related services which are mandatory for BLE peripherals, and one service which is specific to the BlueShield, the BLE Shield Service.
 
 * RX characteristic: D3E60004-8F36-40D6-B2D5-C5D9F5E81869
 * TX characteristic: D3E60005-8F36-40D6-B2D5-C5D9F5E81869
@@ -67,3 +67,8 @@ BlueShield does not require any additional library for Arduino. There is no modi
 - iPad with Retina diaplay (4th gen), iPad mini, iPad (3rd gen) 
 - iPod touch (5th gen)
 
+## Hardware Overview
+
+![BlueShield](http://i.ebayimg.com/t/Bluetooth-4-0-shield-for-arduino-/00/s/NTMzWDgwMA==/z/MQwAAMXQMfZRmpmK/$T2eC16d,!y0E9s2S7)CeBRmpmKWD5!~~60_12.JPG)
+
+![BlueShield](http://i.ebayimg.com/t/Bluetooth-4-0-shield-for-arduino-/00/s/NTMzWDgwMA==/z/SXcAAOxy4dBRmpmE/$(KGrHqJ,!l!FGZGVBB0)BRmpmER0f!~~60_12.JPG)
