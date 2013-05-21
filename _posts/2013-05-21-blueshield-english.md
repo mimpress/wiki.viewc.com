@@ -39,10 +39,10 @@ Devices not in the above list does not have the hardware to support Bluetooth 4.
 ## How to use?
 
 Connect pins from BlueShield to Arduino board
- * 5V > 5V
- * GND > GND
- * TXD > Default TX (Pin 0)
- * RXD > Default RX (Pin 1)
+ * BlueShield 5V > Arduino 5V
+ * BlueShield GND > Arduino GND
+ * BlueShield TXD > Arduino Default TX (Pin 0)
+ * BlueShield RXD > Arduino Default RX (Pin 1)
 
 ### Quick start - Arduino App
 
