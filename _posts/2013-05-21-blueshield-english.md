@@ -8,7 +8,7 @@ tags: [bluetooth 4.0, arduino]
 
 ## Introduction
 
-The Bluetooth Low Energy (BLE) Shield for Arduino is a Shield that enables Arduino projects to communicate with Bluetooth Smart devices such as the iPhone 4s, iPhone 5 or the iPad 4 without Jailbreaking.
+The BlueShield for Arduino is a Shield that enables Arduino projects to communicate with Bluetooth 4.0 Smart devices such as the iPhone 4s, iPhone 5 or the iPad 4 without Jailbreaking.
 
 Simply attach the BLE Shield to an Arduino and write and read data to and from the Arduino using the Serial Port. 
 
@@ -39,10 +39,10 @@ Devices not in the above list does not have the hardware to support Bluetooth 4.
 ## How to use?
 
 * Connect pins from BlueShield to Arduino board
-  5V > 5V
-  GND > GND
-  TXD > Default TX (Pin 0)
-  RXD > Default RX (Pin 1)
+ * 5V > 5V
+ * GND > GND
+ * TXD > Default TX (Pin 0)
+ * RXD > Default RX (Pin 1)
 
 ### Quick start - Arduino App
 
