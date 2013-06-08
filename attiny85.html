@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>attiny85</title>
+    <link rel="stylesheet" href="/css/screen.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="/css/gollum.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="/css/syntax.css" type="text/css" charset="utf-8" />
+    <script src="/javascript/jquery-1.4.2.min.js" type="text/javascript"></script>
+    <script src="/javascript/jquery.text_selection-1.0.0.min.js" type="text/javascript"></script>
+    <script src="/javascript/jquery.previewable_comment_form.js" type="text/javascript"></script>
+    <script src="/javascript/jquery.tabs.js" type="text/javascript"></script>
+    <script src="/javascript/gollum.js" type="text/javascript"></script>
+    <script src="/javascript/MathJax/MathJax.js" type="text/javascript">
+      MathJax.OutputJax.fontDir = "http://github-assets.s3.amazonaws.com/javascripts/MathJax/fonts"
+      MathJax.Hub.Config({
+      jax: ["input/TeX", "output/HTML-CSS"]
+      })
+    </script>
+  </head>
+
+  <body>
+    <div id="main">
+      <div class="site">
+        <div id="guides">
+          <div class="guide">
+            <div class="main">
+              <div class="actions">
+                <div>
+                  <a href="/Home.html">Home</a>
+                </div>
+              </div>
+              <h1>attiny85</h1>
+              <div class="content wikistyle gollum markdown">
+                <hr><p>layout: post
+title: "attiny85"
+description: ""
+category: </p>
+
+<h2>tags: [arduino]</h2>
+
+<p>{% include JB/setup %}</p>
+
+<p>很小巧的AVR微处理器, <a href="http://www.atmel.com/Images/doc2586.pdf">元件资料</a></p>
+
+<p><img src="http://ww3.sinaimg.cn/large/a74ecc4cjw1e13mbyob8ej.jpg" alt="attiny85"></p>
+
+<p>有趣的是这东西可以用类arduino的代码开发，然后刷写程序，用在比较简单而且对体积要求很高的场合是很合适的。</p>
+
+<p><a href="http://www.instructables.com/id/Simplest-and-Cheapest-Arduino/">Simplest and Cheapest Arduino</a></p>
+
+<h2>输出</h2>
+
+<p><img src="http://ww2.sinaimg.cn/large/a74eed94jw1e13mchrw67j.jpg" alt="引脚定义"></p>
+
+<p>详细引脚定义</p>
+
+<p><img src="http://ww3.sinaimg.cn/large/a74ecc4cjw1e166j0mm9lj.jpg" alt="详细引脚"></p>
+
+<p>注意到这东西只有两个PWM输出，如果想做个RGB三色控制怎么办？还可以用SOFT PWM模拟一个出来。</p>
+              </div>
+            </div>
+          </div>
+          <div class="admin">
+            <div style="float: left;">
+              <small>Last edited by <b>volca</b>, 2013-06-08 20:20:31</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>ams1117</title>
+    <link rel="stylesheet" href="/css/screen.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="/css/gollum.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="/css/syntax.css" type="text/css" charset="utf-8" />
+    <script src="/javascript/jquery-1.4.2.min.js" type="text/javascript"></script>
+    <script src="/javascript/jquery.text_selection-1.0.0.min.js" type="text/javascript"></script>
+    <script src="/javascript/jquery.previewable_comment_form.js" type="text/javascript"></script>
+    <script src="/javascript/jquery.tabs.js" type="text/javascript"></script>
+    <script src="/javascript/gollum.js" type="text/javascript"></script>
+    <script src="/javascript/MathJax/MathJax.js" type="text/javascript">
+      MathJax.OutputJax.fontDir = "http://github-assets.s3.amazonaws.com/javascripts/MathJax/fonts"
+      MathJax.Hub.Config({
+      jax: ["input/TeX", "output/HTML-CSS"]
+      })
+    </script>
+  </head>
+
+  <body>
+    <div id="main">
+      <div class="site">
+        <div id="guides">
+          <div class="guide">
+            <div class="main">
+              <div class="actions">
+                <div>
+                  <a href="/Home.html">Home</a>
+                </div>
+              </div>
+              <h1>ams1117</h1>
+              <div class="content wikistyle gollum markdown">
+                <hr><p>layout: post
+title: "ams1117"
+description: ""
+category: </p>
+
+<h2>tags: [电子元件]</h2>
+
+<p>{% include JB/setup %}</p>
+
+<p>三端稳压模块，有1.2V、1.8V、2.5V、. 3.3V、5.0V以及输出电压可调版本。</p>
+
+<p>以后缀表示输出电压，例如AMS1117-3.3表示输出电压为3.3v.</p>
+
+<p><a href="http://www.advanced-monolithic.com/pdf/ds1117.pdf">元件规格</a></p>
+
+<h2>封装和引脚</h2>
+
+<p>封装有如下三种：</p>
+
+<ul>
+<li>SOT-233</li>
+<li>TO-252</li>
+<li>8L SOIC</li>
+</ul><p><img src="http://ww2.sinaimg.cn/large/a74ecc4cjw1e0t1clrjm8j.jpg" alt="封装"></p>
+
+<p>引脚：</p>
+
+<p>1 GND
+2 输出
+3 输入</p>
+
+<h2>3.3v版本</h2>
+
+<ul>
+<li>输出电流可达到1A</li>
+</ul><h2>使用经验</h2>
+
+<ul>
+<li>压降太大的时候，电流就必须小，这是由LDO的工作模式决定的</li>
+<li>假货太多</li>
+<li>输入输出最好接地0.1uf电容和一个10uf的电解电容</li>
+</ul>
+              </div>
+            </div>
+          </div>
+          <div class="admin">
+            <div style="float: left;">
+              <small>Last edited by <b>volca</b>, 2013-06-08 20:20:31</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
