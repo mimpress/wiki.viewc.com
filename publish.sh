@@ -7,3 +7,4 @@ rsync -av _site/ .
 git add .
 git commit -a -m"add"
 git push
+git co gollum
