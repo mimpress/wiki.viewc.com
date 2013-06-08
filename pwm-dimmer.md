@@ -1,0 +1,15 @@
+---
+layout: post
+title: "PWM调光"
+description: ""
+category: "电子电路"
+tags: [调光, led]
+---
+{% include JB/setup %}
+
+LED元件比较适合采用PWM信号调光。这是因为 
+
+* 因为led是一种非线性的元件，直接改变输入电压可能无法取得理想的调光效果。
+* led可以快速开关
+
+采用pwm信号快速开关电源，影响led在单位时间内的点亮时间，也就改变了led的亮度。人的肉眼是很容易欺骗的。
