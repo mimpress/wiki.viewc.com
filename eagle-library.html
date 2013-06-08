@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>eagle library</title>
+    <link rel="stylesheet" href="/css/screen.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="/css/gollum.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="/css/syntax.css" type="text/css" charset="utf-8" />
+    <script src="/javascript/jquery-1.4.2.min.js" type="text/javascript"></script>
+    <script src="/javascript/jquery.text_selection-1.0.0.min.js" type="text/javascript"></script>
+    <script src="/javascript/jquery.previewable_comment_form.js" type="text/javascript"></script>
+    <script src="/javascript/jquery.tabs.js" type="text/javascript"></script>
+    <script src="/javascript/gollum.js" type="text/javascript"></script>
+    <script src="/javascript/MathJax/MathJax.js" type="text/javascript">
+      MathJax.OutputJax.fontDir = "http://github-assets.s3.amazonaws.com/javascripts/MathJax/fonts"
+      MathJax.Hub.Config({
+      jax: ["input/TeX", "output/HTML-CSS"]
+      })
+    </script>
+  </head>
+
+  <body>
+    <div id="main">
+      <div class="site">
+        <div id="guides">
+          <div class="guide">
+            <div class="main">
+              <div class="actions">
+                <div>
+                  <a href="/Home.html">Home</a>
+                </div>
+              </div>
+              <h1>eagle library</h1>
+              <div class="content wikistyle gollum markdown">
+                <hr><p>layout: post
+title: "Eagle元件库"
+description: "元件库"
+category: "电子电路"</p>
+
+<h2>tags: [eagle, 软件]</h2>
+
+<p>{% include JB/setup %}</p>
+
+<h2>Mac下的使用问题</h2>
+
+<ol>
+<li>Open Eagle and select the Control Panel window.</li>
+<li>Choose Options and from the drop down that appears, Directories.</li>
+<li>Change the Libraries line from: $EAGLEDIR/lbr to something like:</li>
+<li>$EAGLEDIR/lbr:$HOME/external_lbrs (for OS X)</li>
+<li>Click OK to save your changes.</li>
+<li>Eagle will prompt to create the directory if it does not already exist. Note the location and choose Yes to create the directory.</li>
+<li>Restart Eagle. The library should be now be usable.</li>
+</ol><h3>元件库同步</h3>
+
+<p>最简单的办法就是通过Dropbox同步，把自定义的lbr文件放在Dropbox下，然后做一个软链接，例如：</p>
+
+<div class="highlight">
+<pre><span class="n">ln</span> <span class="o">-</span><span class="n">s</span> <span class="o">~/</span><span class="n">Dropbox</span><span class="o">/</span><span class="n">custom</span><span class="p">.</span><span class="n">lbr</span> <span class="n">your</span><span class="o">-</span><span class="n">dest</span><span class="p">.</span><span class="n">lbr</span>
+</pre>
+</div>
+
+
+<h2>元件库的分类</h2>
+
+<p>因为接触元器件的英文比较少，所以要从元件库里找到想要的元件，是个很麻烦的事情。常用的有：</p>
+
+<ul>
+<li>Support --- 电源符号，晶振，蜂鸣器，电池等等</li>
+<li>Switch_relay --- 开关和继电器</li>
+<li>Transistor&amp;Diode --- 三极管/Mosfet/二极管/LED等</li>
+</ul><h3>第三方元件库</h3>
+
+<ul>
+<li>
+<a href="https://github.com/sparkfun/SparkFun-Eagle-Libraries">SparkFun</a> - 分类很好的元件库，感觉比eagle自带的要好找</li>
+</ul><h2>参考资料</h2>
+
+<p>注：这两个链接是针对5.x系列的，有些脱节</p>
+
+<ul>
+<li><a href="http://www.geek-workshop.com/thread-94-1-1.html">元件库的绘制</a></li>
+<li><a href="http://www.geek-workshop.com/thread-427-1-1.html">元件库的提取方法</a></li>
+</ul>
+              </div>
+            </div>
+          </div>
+          <div class="admin">
+            <div style="float: left;">
+              <small>Last edited by <b>volca</b>, 2013-06-08 20:57:59</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

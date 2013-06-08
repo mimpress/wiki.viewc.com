@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>bluetooth 40</title>
+    <link rel="stylesheet" href="/css/screen.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="/css/gollum.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="/css/syntax.css" type="text/css" charset="utf-8" />
+    <script src="/javascript/jquery-1.4.2.min.js" type="text/javascript"></script>
+    <script src="/javascript/jquery.text_selection-1.0.0.min.js" type="text/javascript"></script>
+    <script src="/javascript/jquery.previewable_comment_form.js" type="text/javascript"></script>
+    <script src="/javascript/jquery.tabs.js" type="text/javascript"></script>
+    <script src="/javascript/gollum.js" type="text/javascript"></script>
+    <script src="/javascript/MathJax/MathJax.js" type="text/javascript">
+      MathJax.OutputJax.fontDir = "http://github-assets.s3.amazonaws.com/javascripts/MathJax/fonts"
+      MathJax.Hub.Config({
+      jax: ["input/TeX", "output/HTML-CSS"]
+      })
+    </script>
+  </head>
+
+  <body>
+    <div id="main">
+      <div class="site">
+        <div id="guides">
+          <div class="guide">
+            <div class="main">
+              <div class="actions">
+                <div>
+                  <a href="/Home.html">Home</a>
+                </div>
+              </div>
+              <h1>bluetooth 40</h1>
+              <div class="content wikistyle gollum markdown">
+                <hr><p>layout: post
+title: "蓝牙4.0"
+description: ""
+category: </p>
+
+<h2>tags: [蓝牙, iOS]</h2>
+
+<p>蓝牙4.0，有两大优点</p>
+
+<ul>
+<li>省电，其它的优点其实可以忽略</li>
+<li>iPhone 4S之后的机型开始直接支持，不需要经过MFI认证，可以催生很多应用和外设。</li>
+</ul><h2>iOS开发</h2>
+
+<h3>关于RSSI</h3>
+
+<blockquote>
+<p>Talking to the Apple's folk at WWDC, it seemed clear to me that being able to read the RSSI while your application is in the background is something that will go away ...</p>
+
+<p>You should do the work in your device itself, having it monitor the RSSI and sending a notification when required. This will wake-up your application, use less battery and likely more accurate</p>
+</blockquote>
+
+<p>如果iOS在后台运行，过一小会就会停止读取RSSI。可以在peripheral这端给iOS一个notification，然后iOS就会乖乖的爬起来继续读取RSSI了。</p>
+
+<h2>文档</h2>
+
+<ul>
+<li><a href="http://developer.bluetooth.org/gatt/services/Pages/ServicesHome.aspx">GATT已分配的service列表</a></li>
+<li><a href="https://developer.apple.com/hardwaredrivers/BluetoothDesignGuidelines.pdf">Bluetooth Accessory Design Guidelines for Apple Products - PDF</a></li>
+</ul>
+              </div>
+            </div>
+          </div>
+          <div class="admin">
+            <div style="float: left;">
+              <small>Last edited by <b>volca</b>, 2013-06-08 20:57:59</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
