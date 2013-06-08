@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>blueshield english</title>
+    <link rel="stylesheet" href="/css/screen.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="/css/gollum.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="/css/syntax.css" type="text/css" charset="utf-8" />
+    <script src="/javascript/jquery-1.4.2.min.js" type="text/javascript"></script>
+    <script src="/javascript/jquery.text_selection-1.0.0.min.js" type="text/javascript"></script>
+    <script src="/javascript/jquery.previewable_comment_form.js" type="text/javascript"></script>
+    <script src="/javascript/jquery.tabs.js" type="text/javascript"></script>
+    <script src="/javascript/gollum.js" type="text/javascript"></script>
+    <script src="/javascript/MathJax/MathJax.js" type="text/javascript">
+      MathJax.OutputJax.fontDir = "http://github-assets.s3.amazonaws.com/javascripts/MathJax/fonts"
+      MathJax.Hub.Config({
+      jax: ["input/TeX", "output/HTML-CSS"]
+      })
+    </script>
+  </head>
+
+  <body>
+    <div id="main">
+      <div class="site">
+        <div id="guides">
+          <div class="guide">
+            <div class="main">
+              <div class="actions">
+                <div>
+                  <a href="/Home.html">Home</a>
+                </div>
+              </div>
+              <h1>blueshield english</h1>
+              <div class="content wikistyle gollum markdown">
+                <hr><p>layout: post
+title: "BlueShield english version"
+description: ""
+category: </p>
+
+<h2>tags: [bluetooth 4.0, arduino]</h2>
+
+<h2>Introduction</h2>
+
+<p>The BlueShield for Arduino is a Shield that enables Arduino projects to communicate with Bluetooth 4.0 Smart devices such as the iPhone 4s, iPhone 5 or the iPad 4 without Jailbreaking.</p>
+
+<p>Simply attach the BLE Shield to an Arduino and write and read data to and from the Arduino using the Serial Port. </p>
+
+<p>It has a footprint as small as 19mm x 38mm. Hopefully it will simplify your overall design/development cycle.</p>
+
+<h2>How does the Ble shield work?</h2>
+
+<p>It uses TI CC2540 single chip Bluetooth. It provides two services, where two services are BLE related services which are mandatory for BLE peripherals, and one service which is specific to the BlueShield Service.</p>
+
+<ul>
+<li>RX characteristic: D3E60004-8F36-40D6-B2D5-C5D9F5E81869</li>
+<li>TX characteristic: D3E60005-8F36-40D6-B2D5-C5D9F5E81869</li>
+<li>Allow max 20bytes of data.</li>
+<li>Default Baud rate: 9600.</li>
+<li>Work voltage: 5v.</li>
+</ul><p>The RX characteristic can be notified. If you enable notifications on the RX characteristic there is no need to poll for new data. The BlueShield will send you the data automatically. </p>
+
+<p>The data which is sent over the TX characteristic (max. 20 bytes of data) is transferred to the Arduino’s RX pin. </p>
+
+<h2>Requirement</h2>
+
+<p>Compatible devices</p>
+
+<p>iPhone 5, iPhone 4S, iPad mini, iPad with Retina display (4th gen), iPad (3rd gen) or iPod touch (5th gen) with iOS Version 5.1.1 or above.</p>
+
+<p>Devices not in the above list does not have the hardware to support Bluetooth 4.0 Low Energy. </p>
+
+<h2>How to use?</h2>
+
+<p>Connect pins from BlueShield to Arduino board</p>
+
+<ul>
+<li>BlueShield 5V &gt; Arduino 5V</li>
+<li>BlueShield GND &gt; Arduino GND</li>
+<li>BlueShield TXD &gt; Arduino Default TX (Pin 0)</li>
+<li>BlueShield RXD &gt; Arduino Default RX (Pin 1)</li>
+</ul><h3>Quick start - Arduino App</h3>
+
+<p>BlueShield does not require any additional library for Arduino. There is no modification required for your iOS App if it is based on our iOS Framework, however small changes on your sketch is needed. Please look at our sample codes in our SDK for more information. </p>
+
+<ul>
+<li>Download app <a href="https://itunes.apple.com/app/lightblue/id557428110?mt=8">LightBlue</a> from Apple iTunes Store.</li>
+<li>Turn on Bluetooth on your iOS device. <strong>Please note that BlueShield or any Bluetooth Low Energy device will not show in the “Devices” list as pairing to BLE device is not required</strong>
+</li>
+<li>Connect pins from Blueshield to Arduino.</li>
+<li>Start LightBlue App and you will find our device.</li>
+</ul><h2>Software Development Kit (SDK)</h2>
+
+<ul>
+<li><a href="https://github.com/volca/BlueShieldDemo">An chat app for iPhone</a></li>
+<li><a href="https://gist.github.com/volca/5473218">An example for arduino</a></li>
+<li><a href="https://github.com/volca/BlueShieldFramework">BlueShield framework</a></li>
+</ul><h2>Troubleshooting</h2>
+
+<h3>Make sure you are running our BLE Arduino App on a support device</h3>
+
+<ul>
+<li>iPhone 5, iPhone 4S </li>
+<li>iPad with Retina diaplay (4th gen), iPad mini, iPad (3rd gen) </li>
+<li>iPod touch (5th gen)</li>
+</ul><h2>Hardware Overview</h2>
+
+<p><img src="http://i.ebayimg.com/t/Bluetooth-4-0-shield-for-arduino-/00/s/NTMzWDgwMA==/z/MQwAAMXQMfZRmpmK/%24T2eC16d,!y0E9s2S7)CeBRmpmKWD5!~~60_12.JPG" alt="BlueShield"></p>
+
+<p><img alt="BlueShield" src="http://i.ebayimg.com/t/Bluetooth-4-0-shield-for-arduino-/00/s/NTMzWDgwMA==/z/SXcAAOxy4dBRmpmE/%24(KGrHqJ,!l!FGZGVBB0)BRmpmER0f!~~60_12.JPG"></p>
+              </div>
+            </div>
+          </div>
+          <div class="admin">
+            <div style="float: left;">
+              <small>Last edited by <b>volca</b>, 2013-06-08 21:20:47</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

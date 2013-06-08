@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>power module</title>
+    <link rel="stylesheet" href="/css/screen.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="/css/gollum.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="/css/syntax.css" type="text/css" charset="utf-8" />
+    <script src="/javascript/jquery-1.4.2.min.js" type="text/javascript"></script>
+    <script src="/javascript/jquery.text_selection-1.0.0.min.js" type="text/javascript"></script>
+    <script src="/javascript/jquery.previewable_comment_form.js" type="text/javascript"></script>
+    <script src="/javascript/jquery.tabs.js" type="text/javascript"></script>
+    <script src="/javascript/gollum.js" type="text/javascript"></script>
+    <script src="/javascript/MathJax/MathJax.js" type="text/javascript">
+      MathJax.OutputJax.fontDir = "http://github-assets.s3.amazonaws.com/javascripts/MathJax/fonts"
+      MathJax.Hub.Config({
+      jax: ["input/TeX", "output/HTML-CSS"]
+      })
+    </script>
+  </head>
+
+  <body>
+    <div id="main">
+      <div class="site">
+        <div id="guides">
+          <div class="guide">
+            <div class="main">
+              <div class="actions">
+                <div>
+                  <a href="/Home.html">Home</a>
+                </div>
+              </div>
+              <h1>power module</h1>
+              <div class="content wikistyle gollum markdown">
+                <hr><p>layout: post
+title: "电源模块"
+description: ""
+category: </p>
+
+<h2>tags: []</h2>
+
+<p>{% include JB/setup %}</p>
+
+<p>电源IC需要做去耦处理</p>
+
+<p>如图</p>
+
+<p><img src="http://ww2.sinaimg.cn/large/a74ecc4cjw1e0ky46fhnhj.jpg" alt="power"></p>
+
+<ul>
+<li>C45是0.1uf的电容</li>
+<li>C42是10uf的电解电容</li>
+</ul><h2>关于制板</h2>
+
+<ul>
+<li>如果不是功率线路，没有过电流的要求的话，这通常是地线铺的铜箔，为了防止干扰</li>
+<li>如要求比较高的时候会采用4层板或更多层板，中间会有电源层和地层，可将干扰影响减小到最低</li>
+<li>背面放器件是允许的，主要是PCB板生产加工工艺存在区别，正面只需要刷锡膏过回流焊就可以，背面器件还要刷一层红胶固定。</li>
+<li>背面通常只放小的贴片器件，防止器件在加工过程中脱落。在元器件中间的位置点上胶水，不会脱落，然后从回流焊里自动上锡，因为在背面，没胶固定焊接时会脱落。</li>
+<li>2.54排针中间过一根0.3-0.4mm宽的铜箔还是可以的，1.27mm排针中间间距不够。</li>
+</ul>
+              </div>
+            </div>
+          </div>
+          <div class="admin">
+            <div style="float: left;">
+              <small>Last edited by <b>volca</b>, 2013-06-08 21:20:47</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

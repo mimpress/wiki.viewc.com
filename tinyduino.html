@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>tinyduino</title>
+    <link rel="stylesheet" href="/css/screen.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="/css/gollum.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="/css/syntax.css" type="text/css" charset="utf-8" />
+    <script src="/javascript/jquery-1.4.2.min.js" type="text/javascript"></script>
+    <script src="/javascript/jquery.text_selection-1.0.0.min.js" type="text/javascript"></script>
+    <script src="/javascript/jquery.previewable_comment_form.js" type="text/javascript"></script>
+    <script src="/javascript/jquery.tabs.js" type="text/javascript"></script>
+    <script src="/javascript/gollum.js" type="text/javascript"></script>
+    <script src="/javascript/MathJax/MathJax.js" type="text/javascript">
+      MathJax.OutputJax.fontDir = "http://github-assets.s3.amazonaws.com/javascripts/MathJax/fonts"
+      MathJax.Hub.Config({
+      jax: ["input/TeX", "output/HTML-CSS"]
+      })
+    </script>
+  </head>
+
+  <body>
+    <div id="main">
+      <div class="site">
+        <div id="guides">
+          <div class="guide">
+            <div class="main">
+              <div class="actions">
+                <div>
+                  <a href="/Home.html">Home</a>
+                </div>
+              </div>
+              <h1>tinyduino</h1>
+              <div class="content wikistyle gollum markdown">
+                <hr><p>layout: post
+title: "TinyDuino"
+description: ""
+category: </p>
+
+<h2>tags: [arduino]</h2>
+
+<p>{% include JB/setup %}</p>
+
+<p>缩小版的arduino衍生版本，主板的大小和一块硬币大小，非常适合作为原型开发的工具。</p>
+
+<ul>
+<li>支持类似arduino一样的堆叠，接口是自定义的，更密集，相比排针的形式体积要小了许多。 </li>
+<li>主板背面是钮扣电池槽。</li>
+<li>没有内建的电压转换，因为体积小。所以输入电压不要超过5.6v。 </li>
+<li>烧写程序需要使用它提供的底板。</li>
+<li>完全开源，电路图，原理图以及3D效果图都在它的网站上提供了。[^github]</li>
+</ul><p>做为姐妹版，还有TinyLily适合穿戴式设计，比一块硬币还要小。可参见其官方网站<a>^tinycircuits</a></p>
+
+<h2>图片</h2>
+
+<p>主板正面</p>
+
+<p><img src="http://ww1.sinaimg.cn/large/a74ecc4cjw1e0pe4b1br3j.jpg" alt="正面"></p>
+
+<p>可上钮扣电池的背面</p>
+
+<p><img src="http://ww3.sinaimg.cn/large/a74eed94jw1e0pe57y987j.jpg" alt="主板背面"></p>
+
+<p>通过这种插槽堆叠起来</p>
+
+<p><img src="http://ww1.sinaimg.cn/large/a74e55b4jw1e0pe68iy7qj.jpg" alt="扩展板背面"></p>
+
+<h2>Kickstarter</h2>
+
+<p>tiny circuits在kickstarter上已经有6个成功集资的项目，多数项目都和arduino相关。</p>
+
+<p>[^github]: 源码在 <a href="https://github.com/TinyCircuits">github</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="admin">
+            <div style="float: left;">
+              <small>Last edited by <b>volca</b>, 2013-06-08 21:20:47</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
