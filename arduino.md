@@ -15,6 +15,6 @@
 
 | Name | Picture |
 ----|----|----
-| [TinyDuino](tinyduino.html) | |
-| [DFRobot的Dreamer MEGA主板](dfrobot-dreamer-mega.html) | |
+| [TinyDuino](tinyduino.html) | ![TinyDuino](http://ww1.sinaimg.cn/thumbnail/a74ecc4cjw1e0pe4b1br3j.jpg)|
+| [DFRobot的Dreamer MEGA主板](dfrobot-dreamer-mega.html) | ![dfrobot dreamer mega](http://ww2.sinaimg.cn/thumbnail/826db6f8jw1e0ky7hmdv7j.jpg)|
 | [microduino](microduino.html) | ![microduio](http://ww2.sinaimg.cn/thumbnail/a74e55b4jw1e0jwtffzdaj.jpg) |
