@@ -1,15 +1,6 @@
----
-layout: post
-title: "microduino"
-description: ""
-category: 
-tags: [arduino]
----
-{% include JB/setup %}
+# microduino
 
-microduino是国人自制的arduino版本，特点是体积比较小,仍然保持了可堆叠的特性。有5v和3.3v版本。
-
-见[microduino]
+Microduino 
 
 正面图
 
@@ -21,4 +12,3 @@ microduino反面图
 
 ![microduino反面图](http://ww2.sinaimg.cn/mw690/a74e55b4jw1e0jwtffzdaj.jpg)
 
-[microduino]:http://www.microduino.cn
