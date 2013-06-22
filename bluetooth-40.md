@@ -1,10 +1,5 @@
----
-layout: post
-title: "蓝牙4.0"
-description: ""
-category: 
-tags: [蓝牙, iOS]
----
+# 蓝牙4.0
+
 蓝牙4.0，有两大优点
 
 - 省电，其它的优点其实可以忽略
