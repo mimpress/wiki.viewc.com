@@ -21,7 +21,7 @@ The RX characteristic can be notified. If you enable notifications on the RX cha
 * TX characteristic: D3E60005-8F36-40D6-B2D5-C5D9F5E81869
 * Allow max 20bytes of data.
 * Default Baud rate: 9600
-* Work voltage: 3.3v.
+* Work voltage: 2 - 3.3v.
 
 ## Pinout
 
@@ -61,4 +61,4 @@ ESD sensitive device. Precautions should be used when handing the device in orde
 
 Additional information on the Texas Instruments CC2540
 
-device can be found in the companyâ€™s latest datasheet release at http://www.ti.com/product/CC2540
+device can be found in the company's latest datasheet release at http://www.ti.com/product/CC2540
