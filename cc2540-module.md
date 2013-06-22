@@ -48,11 +48,6 @@ iPhone 5, iPhone 4S, iPad mini, iPad with Retina display (4th gen), iPad (3rd ge
 
 Devices not in the above list does not have the hardware to support Bluetooth 4.0 Low Energy.
 
-
-## Package Included:
-
-1 x CC2540-A1 BLE Transceiver Module
-
 ## CAUTION:
 
 ESD sensitive device. Precautions should be used when handing the device in order to prevent permanent damage.
