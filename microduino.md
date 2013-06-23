@@ -28,7 +28,7 @@ Just like on the standard Arduino platform, where you can add expansion shields 
 ### Extension shields
 
 | Boards | Function | Pictures |
-----|----
+----|----|----
 | Microduino-ENC28J60 + Microduino-RJ45 | Ethernet Shields<br> IEEE 802.3 compatible | ![Ethernet](http://farm6.staticflickr.com/5461/9112424499_8836fe0970_m.jpg)|
 | Microduino-nRF24 | 2.4G wireless shields | ![Ethernet](http://farm8.staticflickr.com/7405/9114647668_e693c0da52_m.jpg)|
 | Microduino-SD | SD card shields | ![sd](http://farm3.staticflickr.com/2891/9112424531_2e146b8410_m.jpg)|
