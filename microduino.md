@@ -13,7 +13,7 @@ Each module in the Microduino family has been optimized to include only the core
 
 ## Microduino Shields
 
-Just like on the standard Arduino platform, where you can add expansion shields to add more features, the Microduino allows expansion by using Microduino Shields. Whether you want to add communication capabilities (like Bluetooth, WiFi, USB), sensor readings, drive a display or run motors for your swarm of tiny robots – there is a shield for that. The Microduino Shield interface uses a low cost, very miniature connector that supports all of the signals (and a few spare) that are supported on the standard Arduino Shield connectors. And being so compact, the board to board stackup height is only 3mm, meaning even adding a few Microduino Shields will still allow for an extremely compact final product.
+Just like on the standard Arduino platform, where you can add expansion shields to add more features, the Microduino allows expansion by using Microduino Shields. Whether you want to add communication capabilities (like OLED, Ethernet, USB), sensor readings, drive a display or run motors for your swarm of tiny robots – there is a shield for that. The Microduino Shield interface uses a low cost, very miniature connector that supports all of the signals (and a few spare) that are supported on the standard Arduino Shield connectors. And being so compact, the board to board stackup height is only 3mm, meaning even adding a few Microduino Shields will still allow for an extremely compact final product.
 
 ## Hardware overview
 
