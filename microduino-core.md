@@ -18,7 +18,7 @@ _Note:_  To program this board, you need to use [the Microduino USB & ICP Board]
 * 32KB program memory / 2KB SRAM /1KB EEPROM
 * Digital I/O 0~13, A0~A5
 * Analog I/O A0~A7
-* Six PWM pins - pin3，5，6，9，10 and 11
+* 6 PWM pins - pin3,5,6,9,10 and 11
 * Size 25.4mm x 27.94mm
 * Arduino Bootloader preprogrammed (uses 0.5 KBytes of Flash Memory)
 
