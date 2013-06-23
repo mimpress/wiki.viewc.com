@@ -39,7 +39,7 @@ Just like on the standard Arduino platform, where you can add expansion shields 
 
 | Boards | Function | Pictures |
 ----|----|----
-| [Test Microduino](microduino-test.html] | Shield shield | ![shield](http://farm6.staticflickr.com/5528/9114647784_7aab9474e9_m.jpg)|
+| [Test Microduino](microduino-test.html) | Shield shield | ![shield](http://farm6.staticflickr.com/5528/9114647784_7aab9474e9_m.jpg)|
 
 ## Hardware overview and specifications
 
