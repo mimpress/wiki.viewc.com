@@ -1,11 +1,4 @@
----
-layout: post
-title: "arduino due"
-description: ""
-category: 
-tags: [arduino]
----
-{% include JB/setup %}
+# arduino due
 
 Arduino Due 是 Arduino 家族新的微控制器板，这是首个采用 32 位 ARM 处理器的开发板，Atmel SAM3X8E ARM Cortex-M3 MCU 提升了所有标准的 Arduino 功能，同时增加更多新特性。
 

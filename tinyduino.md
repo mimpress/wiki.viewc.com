@@ -1,11 +1,4 @@
----
-layout: post
-title: "TinyDuino"
-description: ""
-category: 
-tags: [arduino]
----
-{% include JB/setup %}
+# TinyDuino
 
 缩小版的arduino衍生版本，主板的大小和一块硬币大小，非常适合作为原型开发的工具。
 
