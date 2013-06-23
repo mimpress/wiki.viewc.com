@@ -29,17 +29,17 @@ Just like on the standard Arduino platform, where you can add expansion shields 
 
 | Boards | Function | Pictures |
 ----|----|----
-| Microduino-ENC28J60 + Microduino-RJ45 | Ethernet Shields<br> IEEE 802.3 compatible | ![Ethernet](http://farm6.staticflickr.com/5461/9112424499_8836fe0970_m.jpg)|
-| Microduino-nRF24 | 2.4G wireless shields | ![Ethernet](http://farm8.staticflickr.com/7405/9114647668_e693c0da52_m.jpg)|
-| Microduino-SD | SD card shields | ![sd](http://farm3.staticflickr.com/2891/9112424531_2e146b8410_m.jpg)|
-| Microduino-BM | Battery manager shields | ![bm](http://farm8.staticflickr.com/7420/9114647636_a21ed1cec7_m.jpg)|
-| Microduino-OLED | OLEDshields | ![OLED](http://farm8.staticflickr.com/7297/9114647498_ddd81a3df1_m.jpg)|
+| Microduino-ENC28J60 + Microduino-RJ45 | Ethernet shield<br> IEEE 802.3 compatible | ![Ethernet](http://farm6.staticflickr.com/5461/9112424499_8836fe0970_m.jpg)|
+| Microduino-nRF24 | 2.4G wireless shield | ![Ethernet](http://farm8.staticflickr.com/7405/9114647668_e693c0da52_m.jpg)|
+| Microduino-SD | SD card shield | ![sd](http://farm3.staticflickr.com/2891/9112424531_2e146b8410_m.jpg)|
+| Microduino-BM | Battery manager shield | ![bm](http://farm8.staticflickr.com/7420/9114647636_a21ed1cec7_m.jpg)|
+| Microduino-OLED | OLED shield | ![OLED](http://farm8.staticflickr.com/7297/9114647498_ddd81a3df1_m.jpg)|
 
 ### Shield Shields
 
 | Boards | Function | Pictures |
 ----|----|----
-| Test Microduino | Shield Shield | ![shield](http://farm6.staticflickr.com/5528/9114647784_7aab9474e9_m.jpg)|
+| Test Microduino | Shield shield | ![shield](http://farm6.staticflickr.com/5528/9114647784_7aab9474e9_m.jpg)|
 
 
 ## Hardware overview and specifications
