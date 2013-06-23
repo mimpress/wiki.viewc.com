@@ -21,9 +21,9 @@ Just like on the standard Arduino platform, where you can add expansion shields 
 
 | Boards | Function | Pictures |
 ----|----|----
-| Microduino-Core | Core Module<br> Arduino uno compatible <br>ATmega328P/168PA | ![core](http://farm3.staticflickr.com/2871/9112424435_7a5b6ff3ae_m.jpg)|
-| Microduino-Core+ | Core+ Module<br> Two hardware serial port <br>ATmega328P/168PA | ![core+](http://farm3.staticflickr.com/5532/9112424467_e7f4802bab_m.jpg)|
-| Microduino-FT232R | FTDI USB to Serial converter <br> Using the board to download new sketches| ![FT232R](http://farm4.staticflickr.com/3700/9112424487_bd4c0f29f9_m.jpg)|
+| [Microduino-Core](microduino-core.html) | Core Module<br> Arduino uno compatible <br>ATmega328P/168PA | ![core](http://farm3.staticflickr.com/2871/9112424435_7a5b6ff3ae_m.jpg)|
+| [Microduino-Core+](microduino-core-plus.html) | Core+ Module<br> Two hardware serial port <br>ATmega328P/168PA | ![core+](http://farm3.staticflickr.com/5532/9112424467_e7f4802bab_m.jpg)|
+| [Microduino-FT232R](microduino-ft232r.html) | FTDI USB to Serial converter <br> Using the board to download new sketches| ![FT232R](http://farm4.staticflickr.com/3700/9112424487_bd4c0f29f9_m.jpg)|
 
 ### Extension shields
 
