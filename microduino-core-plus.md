@@ -29,9 +29,7 @@ _Note:_  To program this board, you need to use [the Microduino USB & ICP Board]
 * [Microduino-core PCB](http://wiki.microduino.net/images/thumb/0/08/Microduino-Core%2B-pcb.png/656px-Microduino-Core%2B-pcb.png)
 * [Microduino eagle source file](http://wiki.microduino.net/images/4/4d/Microduino-Core%2B.zip)
 
-## Usage
-
-### Getting started with Microduino
+## Getting started with Microduino
 
 * Install [Arduino IDE](http://arduino.cc/en/Main/Software). You need to download the latest version of the drivers from [the FTDI website](http://www.ftdichip.com/Drivers/VCP.htm).
 * You'd better read this, [Getting Started with Arduino](http://arduino.cc/en/Guide/HomePage)
