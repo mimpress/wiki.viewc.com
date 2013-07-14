@@ -7,6 +7,8 @@
 
 ## iOS开发
 
+* [The Apple Notification Center Service](ancs.html)
+
 ### 关于RSSI
 
 > Talking to the Apple's folk at WWDC, it seemed clear to me that being able to read the RSSI while your application is in the background is something that will go away ...
