@@ -1,13 +1,6 @@
----
-layout: post
-title: "attiny85"
-description: ""
-category: 
-tags: [arduino]
----
-{% include JB/setup %}
+# attiny85
 
-很小巧的AVR微处理器, [元件资料](http://www.atmel.com/Images/doc2586.pdf)
+很小巧的AVR微处理器, [元件资料](http://www.atmel.com/Images/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf)
 
 ![attiny85](http://ww3.sinaimg.cn/large/a74ecc4cjw1e13mbyob8ej.jpg)
 
