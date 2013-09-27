@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>WIKI - 维C</title>
+ <link href="http://wiki.viewc.com/atom.xml" rel="self"/>
+ <link href="http://wiki.viewc.com"/>
+ <updated>2013-03-13T15:58:46+08:00</updated>
+ <id>http://wiki.viewc.com</id>
+ <author>
+   <name>Volcano</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>cookoo智能手表</title>
+   <link href="http://wiki.viewc.com/cookoo.html"/>
+   <updated>2013-03-03T00:00:00+08:00</updated>
+   <id>http://wiki.viewc.com/cookoo</id>
+   <content type="html">&lt;p&gt;COOKOO智能手表，第一次打开之后提示要访问以下资源&lt;/p&gt;
+
+&lt;p&gt;* 提醒事项 * 日历 * 位置服务&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>灯头锁紧器</title>
+   <link href="http://wiki.viewc.com/lamp-holder-fastening.html"/>
+   <updated>2013-02-26T00:00:00+08:00</updated>
+   <id>http://wiki.viewc.com/lamp-holder-fastening</id>
+   <content type="html">&lt;p&gt;灯头锁紧器是一种固定于台面上的工具，用于组装LED电灯时，通过锁紧器上的插针将灯头固定，以免安装电灯时发生移动。&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>声控转换灯头</title>
+   <link href="http://wiki.viewc.com/voice-control-lamp-holder.html"/>
+   <updated>2013-02-21T00:00:00+08:00</updated>
+   <id>http://wiki.viewc.com/voice-control-lamp-holder</id>
+   <content type="html">&lt;p&gt;声控转换灯头，可将普通的螺口球泡灯转换为带声控的灯泡。淘宝上售价从5块到100块不等。&lt;/p&gt;
+
+&lt;p&gt;买了几个相对便宜的灯头，质量情况堪忧&lt;/p&gt;
+
+&lt;p&gt;* 塑料外壳在运输途中裂开，很脆&lt;/p&gt;
+
+&lt;p&gt;* 外观山寨感非常强烈，一分钱一分货&lt;/p&gt;
+
+&lt;p&gt;* 螺口的只用了一颗螺丝固定，偷工减料，易松动，拧上灯泡后容易导致接触位置短路&lt;/p&gt;
+
+&lt;p&gt;拆开螺口之后的内部图&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='灯头' src='http://ww3.sinaimg.cn/mw690/a74ecc4cjw1e210oz3dzmj.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;塑料外壳在运输途中裂开，很脆&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='灯头' src='http://ww2.sinaimg.cn/mw690/a74eed94jw1e210r6giizj.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;灯头正面&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='灯头' src='http://ww4.sinaimg.cn/mw690/a74e55b4jw1e210tf79zrj.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;内部螺口&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='灯头' src='http://ww2.sinaimg.cn/mw690/a74ecc4cjw1e210uu2rxfj.jpg' /&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>可控硅调光</title>
+   <link href="http://wiki.viewc.com/triac-dimmer.html"/>
+   <updated>2013-02-14T00:00:00+08:00</updated>
+   <id>http://wiki.viewc.com/triac-dimmer</id>
+   <content type="html">&lt;p&gt;通过改变市电的导通角进行调光，市面上出售大多数可调光电灯都是采用这种方式调光。&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>PWM调光</title>
+   <link href="http://wiki.viewc.com/pwm-dimmer.html"/>
+   <updated>2013-02-14T00:00:00+08:00</updated>
+   <id>http://wiki.viewc.com/pwm-dimmer</id>
+   <content type="html">&lt;p&gt;LED元件比较适合采用PWM信号调光。这是因为&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;因为led是一种非线性的元件，直接改变输入电压可能无法取得理想的调光效果。&lt;/li&gt;
+
+&lt;li&gt;led可以快速开关&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;采用pwm信号快速开关电源，影响led在单位时间内的点亮时间，也就改变了led的亮度。人的肉眼是很容易欺骗的。&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>MB39C602</title>
+   <link href="http://wiki.viewc.com/mb39c602.html"/>
+   <updated>2013-01-25T00:00:00+08:00</updated>
+   <id>http://wiki.viewc.com/mb39c602</id>
+   <content type="html">&lt;p&gt;MB39C602是2012年底富士通出的一颗用于照明的LED驱动IC。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;富士通半导体（上海）有限公司今日宣布推出最新支持PWM调光的LED驱动芯片MB39C602系列。该系列芯片是富士通半导体最新开发的LED驱动芯片系列，在MB39C602之前推出的MB39C601 LED驱动芯片可支持可控硅调光的AC/DC。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img alt='结构图' src='http://ww4.sinaimg.cn/large/a74ecc4cjw1e15irivdaij.jpg' /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;MB39C602系列采用Flyback拓扑结构，并带主动PFC，支持PWM调光，其开关时间或开光频率可调，可支持输出恒流或恒压模式。该款LED驱动芯片具有高功率因数（&amp;gt;0.9），高效率（&amp;gt;85%），低EMI等特点，支持全电压（AC 85~265V输入），最大功率50W（200V输入情况下）。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;富士通的一个&lt;a href='http://www.fujitsu.com/cn/fss/analog/pwrmngt/led/'&gt;利用zigbee遥控led的例子&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='dimmable led' src='http://ww3.sinaimg.cn/large/a74eed94jw1e15jdtx0blj.jpg' /&gt;&lt;/p&gt;
+
+&lt;h2 id='mb39c602mb39c601'&gt;MB39C602和MB39C601&lt;/h2&gt;
+
+&lt;p&gt;技术人员说MB39C602实际上是MB39C601的阉割版，MB39C601做一点小改动就可以实现一样的功能。&lt;/p&gt;
+
+&lt;h2 id='id88'&gt;价格&lt;/h2&gt;
+
+&lt;p&gt;北京富士通分公司的支持人员说如果年购买量为20万片，那么价格为0.5$片。&lt;/p&gt;
+
+&lt;h2 id='id89'&gt;文档&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href='http://www.fujitsu.com/downloads/CN/fss/services/analog/pwrmngt/MB39C602_PO_E0.1b.pdf'&gt;规格文档&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>sop2dip</title>
+   <link href="http://wiki.viewc.com/sop2dip.html"/>
+   <updated>2013-01-24T00:00:00+08:00</updated>
+   <id>http://wiki.viewc.com/sop2dip</id>
+   <content type="html">&lt;p&gt;贴片元件转直插式元件的转接板，把贴片元件焊接在转接板上，然后转接板就可以用在普通的洞洞板或者面包板上了。&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>ds18b20温度传感器</title>
+   <link href="http://wiki.viewc.com/ds18b20.html"/>
+   <updated>2013-01-23T00:00:00+08:00</updated>
+   <id>http://wiki.viewc.com/ds18b20</id>
+   <content type="html">&lt;p&gt;计划用DS18B20做一个防踢被子的小东西，可参考的资料有arduino + DS18B20的连接方式&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://datasheets.maxim-ic.com/en/ds/DS18B20.pdf'&gt;引脚定义 - PDF&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://www.hacktronics.com/Tutorials/arduino-1-wire-tutorial.html'&gt;Arduino 1-Wire Tutorial&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这个元件只有3条腿，除了电源之外，数据口需要给一个上拉电阻的样子&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>attiny85</title>
+   <link href="http://wiki.viewc.com/attiny85.html"/>
+   <updated>2013-01-23T00:00:00+08:00</updated>
+   <id>http://wiki.viewc.com/attiny85</id>
+   <content type="html">&lt;p&gt;很小巧的AVR微处理器, &lt;a href='http://www.atmel.com/Images/doc2586.pdf'&gt;元件资料&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='attiny85' src='http://ww3.sinaimg.cn/large/a74ecc4cjw1e13mbyob8ej.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;有趣的是这东西可以用类arduino的代码开发，然后刷写程序，用在比较简单而且对体积要求很高的场合是很合适的。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://www.instructables.com/id/Simplest-and-Cheapest-Arduino/'&gt;Simplest and Cheapest Arduino&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id='id87'&gt;输出&lt;/h2&gt;
+
+&lt;p&gt;&lt;img alt='引脚定义' src='http://ww2.sinaimg.cn/large/a74eed94jw1e13mchrw67j.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;详细引脚定义&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='详细引脚' src='http://ww3.sinaimg.cn/large/a74ecc4cjw1e166j0mm9lj.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;注意到这东西只有两个PWM输出，如果想做个RGB三色控制怎么办？还可以用SOFT PWM模拟一个出来。&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>鲜牛奶</title>
+   <link href="http://wiki.viewc.com/raw-milk.html"/>
+   <updated>2013-01-14T00:00:00+08:00</updated>
+   <id>http://wiki.viewc.com/raw-milk</id>
+   <content type="html">&lt;p&gt;鲜牛奶以经过巴氏杀菌的牛奶为宜，冷藏保存。目前成功做成酸奶的鲜牛奶有这几种:&lt;/p&gt;
+
+&lt;p&gt;* 三元特品鲜奶(巴氏杀菌)。&lt;/p&gt;
+
+&lt;p&gt;* 光明特品鲜奶(巴氏杀菌)。&lt;/p&gt;
+
+&lt;p&gt;* 楼下一家马记清真奶酪店供应的号称无任何处理的鲜奶。&lt;/p&gt;
+
+&lt;p&gt;奇怪的是，奶酪店提供的鲜奶，入冬以来我没有做酸奶成功过，所以暂时放弃。&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>cc2540模块</title>
+   <link href="http://wiki.viewc.com/cc2540-module.html"/>
+   <updated>2013-01-14T00:00:00+08:00</updated>
+   <id>http://wiki.viewc.com/cc2540-module</id>
+   <content type="html">&lt;p&gt;用过的&lt;a href='bluetooth-40.html'&gt;蓝牙4.0&lt;/a&gt;模块. 实际大小大概比1元硬币长一点。&lt;/p&gt;
+
+&lt;p&gt;管脚图&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='cc2540' src='http://ww4.sinaimg.cn/large/a74eed94jw1e0t3mny02dj.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='cc2540' src='http://ww3.sinaimg.cn/large/a74e55b4jw1e0t3nh2jhsj.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://item.taobao.com/item.htm?id=19972744299'&gt;taobao&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id='id86'&gt;参考文档&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href='http://processors.wiki.ti.com/index.php/Category:BluetoothLE'&gt;WIKI for cc2540&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>蓝牙4.0</title>
+   <link href="http://wiki.viewc.com/bluetooth-40.html"/>
+   <updated>2013-01-14T00:00:00+08:00</updated>
+   <id>http://wiki.viewc.com/bluetooth-40</id>
+   <content type="html">&lt;p&gt;蓝牙4.0，有两大优点&lt;/p&gt;
+
+&lt;p&gt;- 省电，其它的优点其实可以忽略&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;iPhone 4S之后的机型开始直接支持，不需要经过MFI认证，可以催生很多应用和外设。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='ios'&gt;iOS开发&lt;/h2&gt;
+
+&lt;h3 id='rssi'&gt;关于RSSI&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Talking to the Apple&amp;#8217;s folk at WWDC, it seemed clear to me that being able to read the RSSI while your application is in the background is something that will go away &amp;#8230;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;You should do the work in your device itself, having it monitor the RSSI and sending a notification when required. This will wake-up your application, use less battery and likely more accurate&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;如果iOS在后台运行，过一小会就会停止读取RSSI。可以在peripheral这端给iOS一个notification，然后iOS就会乖乖的爬起来继续读取RSSI了。&lt;/p&gt;
+
+&lt;h2 id='id85'&gt;文档&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href='http://developer.bluetooth.org/gatt/services/Pages/ServicesHome.aspx'&gt;GATT已分配的service列表&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='https://developer.apple.com/hardwaredrivers/BluetoothDesignGuidelines.pdf'&gt;Bluetooth Accessory Design Guidelines for Apple Products - PDF&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>ams1117</title>
+   <link href="http://wiki.viewc.com/ams1117.html"/>
+   <updated>2013-01-14T00:00:00+08:00</updated>
+   <id>http://wiki.viewc.com/ams1117</id>
+   <content type="html">&lt;p&gt;三端稳压模块，有1.2V、1.8V、2.5V、. 3.3V、5.0V以及输出电压可调版本。&lt;/p&gt;
+
+&lt;p&gt;以后缀表示输出电压，例如AMS1117-3.3表示输出电压为3.3v.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://www.advanced-monolithic.com/pdf/ds1117.pdf'&gt;元件规格&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id='id83'&gt;封装和引脚&lt;/h2&gt;
+
+&lt;p&gt;封装有如下三种：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;SOT-233&lt;/li&gt;
+
+&lt;li&gt;TO-252&lt;/li&gt;
+
+&lt;li&gt;8L SOIC&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img alt='封装' src='http://ww2.sinaimg.cn/large/a74ecc4cjw1e0t1clrjm8j.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;引脚：&lt;/p&gt;
+
+&lt;p&gt;1 GND 2 输出 3 输入&lt;/p&gt;
+
+&lt;h2 id='33v'&gt;3.3v版本&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;输出电流可达到1A&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='id84'&gt;使用经验&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;输入输出最好接地0.1uf电容和一个10uf的电感电容&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>酸奶机</title>
+   <link href="http://wiki.viewc.com/yogurt-maker.html"/>
+   <updated>2013-01-13T00:00:00+08:00</updated>
+   <id>http://wiki.viewc.com/yogurt-maker</id>
+   <content type="html">&lt;p&gt;酸奶机用来提供酸奶发酵菌的恒温环境,大概40度左右。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;价格不贵，100元以内能买到好用的.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;- 一般是整锅发酵，也有可以分杯的.&lt;/p&gt;
+
+&lt;p&gt;- 使用前需要将内胆和盖子进行高温消毒.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>万能板电路设计工具</title>
+   <link href="http://wiki.viewc.com/diy-layout-creator.html"/>
+   <updated>2013-01-13T00:00:00+08:00</updated>
+   <id>http://wiki.viewc.com/diy-layout-creator</id>
+   <content type="html">&lt;p&gt;Diy Layout Creator, 万能板电路设计工具，免费。看上去是用java写成。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='diy layout creator' src='http://ww2.sinaimg.cn/large/a74ecc4cjw1e0rmimjloej.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;运行时的界面&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='mac下运行中' src='http://ww3.sinaimg.cn/large/a74eed94jw1e0rmwpb27zj.jpg' /&gt;&lt;/p&gt;
+
+&lt;h2 id='id82'&gt;经验&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;windows下的可打开&lt;/li&gt;
+
+&lt;li&gt;mac moutain lion下显示文件已损坏，需要在安全设置修改为允许运行任意来源的应用&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>TinyDuino</title>
+   <link href="http://wiki.viewc.com/tinyduino.html"/>
+   <updated>2013-01-11T00:00:00+08:00</updated>
+   <id>http://wiki.viewc.com/tinyduino</id>
+   <content type="html">&lt;p&gt;缩小版的arduino衍生版本，主板的大小和一块硬币大小，非常适合作为原型开发的工具。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;支持类似arduino一样的堆叠，接口是自定义的，更密集，相比排针的形式体积要小了许多。 - 主板背面是钮扣电池槽。&lt;/li&gt;
+
+&lt;li&gt;没有内建的电压转换，因为体积小。所以输入电压不要超过5.6v。 - 烧写程序需要使用它提供的底板。&lt;/li&gt;
+
+&lt;li&gt;完全开源，电路图，原理图以及3D效果图都在它的网站上提供了。&lt;sup id='fnref:1'&gt;&lt;a href='#fn:1' rel='footnote'&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;做为姐妹版，还有TinyLily适合穿戴式设计，比一块硬币还要小。可参见其官方网站&lt;sup id='fnref:2'&gt;&lt;a href='#fn:2' rel='footnote'&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h2 id='id81'&gt;图片&lt;/h2&gt;
+
+&lt;p&gt;主板正面&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='正面' src='http://ww1.sinaimg.cn/large/a74ecc4cjw1e0pe4b1br3j.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;可上钮扣电池的背面&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='主板背面' src='http://ww3.sinaimg.cn/large/a74eed94jw1e0pe57y987j.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;通过这种插槽堆叠起来&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='扩展板背面' src='http://ww1.sinaimg.cn/large/a74e55b4jw1e0pe68iy7qj.jpg' /&gt;&lt;/p&gt;
+
+&lt;h2 id='kickstarter'&gt;Kickstarter&lt;/h2&gt;
+
+&lt;p&gt;tiny circuits在kickstarter上已经有6个成功集资的项目，多数项目都和arduino相关。&lt;/p&gt;
+&lt;div class='footnotes'&gt;&lt;hr /&gt;&lt;ol&gt;&lt;li id='fn:1'&gt;
+&lt;p&gt;源码在 &lt;a href='https://github.com/TinyCircuits'&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;a href='#fnref:1' rev='footnote'&gt;&amp;#8617;&lt;/a&gt;&lt;/li&gt;&lt;li id='fn:2'&gt;
+&lt;p&gt;&lt;a href='http://tiny-circuits.com'&gt;官方网站&lt;/a&gt;&lt;/p&gt;
+&lt;a href='#fnref:2' rev='footnote'&gt;&amp;#8617;&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>电源模块</title>
+   <link href="http://wiki.viewc.com/power-module.html"/>
+   <updated>2013-01-07T00:00:00+08:00</updated>
+   <id>http://wiki.viewc.com/power-module</id>
+   <content type="html">&lt;p&gt;电源IC需要做去耦处理&lt;/p&gt;
+
+&lt;p&gt;如图&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='power' src='http://ww2.sinaimg.cn/large/a74ecc4cjw1e0ky46fhnhj.jpg' /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;C45是0.1uf的电容&lt;/li&gt;
+
+&lt;li&gt;C42是10uf的电解电容&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='id80'&gt;关于制板&lt;/h2&gt;
+
+&lt;p&gt;* 如果不是功率线路，没有过电流的要求的话，这通常是地线铺的铜箔，为了防止干扰&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;如要求比较高的时候会采用4层板或更多层板，中间会有电源层和地层，可将干扰影响减小到最低&lt;/li&gt;
+
+&lt;li&gt;背面放器件是允许的，主要是PCB板生产加工工艺存在区别，正面只需要刷锡膏过回流焊就可以，背面器件还要刷一层红胶固定。 * 背面通常只放小的贴片器件，防止器件在加工过程中脱落。在元器件中间的位置点上胶水，不会脱落，然后从回流焊里自动上锡，因为在背面，没胶固定焊接时会脱落。&lt;/li&gt;
+
+&lt;li&gt;
+&lt;li&gt;54排针中间过一根0.3-0.4mm宽的铜箔还是可以的，1.27mm排针中间间距不够。&lt;/li&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>DFRobot的Dreamer MEGA主板</title>
+   <link href="http://wiki.viewc.com/dfrobot-dreamer-mega.html"/>
+   <updated>2013-01-07T00:00:00+08:00</updated>
+   <id>http://wiki.viewc.com/dfrobot-dreamer-mega</id>
+   <content type="html">&lt;p&gt;主要好处就是扩展模块的接线方便了很多，都通过标准电缆连接。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Dreamer MEGA Mainboard 梦想家系列MEGA主板是开发用于教育的控制板。这个控制板具备一些互动的传感器，例如语音播放、语音识别、触摸传感器、灯光板等。可以将这模块塞入一个普通的毛绒玩具，通过程序赋予它活力。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;主板接口使用 Gadgeteer 规范。兼容众多 Gadgeteer 模块。Dreamer MEGA使用的微型的10芯线的好处是可以很方便的连接外设，一个外设只需要一条微型电缆线就可以连接，而传统的用单芯杜邦线连接，那将是一个蜘蛛网。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;第二个好处是在扩展性方面，例如Arduino如果要连接多个Shield，非常大的可能是会产生IO冲突，多个Shield共用一个IO，而这时也是不能解决的。Dreamer MEGA的10芯电缆都是独立的，不存在IO共享从冲突。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img alt='img' src='http://ww2.sinaimg.cn/bmiddle/826db6f8jw1e0ky7hmdv7j.jpg' /&gt;&lt;/p&gt;
+
+&lt;h2 id='id78'&gt;技术规格&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;微控制器 ATmega1280&lt;/li&gt;
+
+&lt;li&gt;Flash容量 128KB&lt;/li&gt;
+
+&lt;li&gt;SRAM静态存储容量 8KB&lt;/li&gt;
+
+&lt;li&gt;EEPROM存储容量 4KB&lt;/li&gt;
+
+&lt;li&gt;时钟频率 16MHz&lt;/li&gt;
+
+&lt;li&gt;外部输入电压 7V 至 12V&lt;/li&gt;
+
+&lt;li&gt;具有一个内部锂电池充电电路，主板可以使用7.4V锂电池供电，同时可以最大1A电流对电池充电&lt;/li&gt;
+
+&lt;li&gt;具有16个不同种类的Gadgeteer模块接口&lt;/li&gt;
+
+&lt;li&gt;尺寸：长97mm×宽72mm×高12.5mm&lt;/li&gt;
+
+&lt;li&gt;重量 40克&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='id79'&gt;链接&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href='http://www.dfrobot.com.cn/index.php?route=product/product&amp;amp;path=130&amp;amp;product_id=585'&gt;Dreamer MEGA Mainboard&lt;/a&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>microduino</title>
+   <link href="http://wiki.viewc.com/microduino.html"/>
+   <updated>2013-01-06T00:00:00+08:00</updated>
+   <id>http://wiki.viewc.com/microduino</id>
+   <content type="html">&lt;p&gt;microduino是国人自制的arduino版本，特点是体积比较小。有5v和3.3v版本。&lt;/p&gt;
+
+&lt;p&gt;见&lt;a href='http://www.microduino.cn'&gt;microduino&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;正面图&lt;/p&gt;
+
+&lt;p&gt;microduino正面图&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='microduino正面图' src='http://ww1.sinaimg.cn/large/a74eed94jw1e0jvl04075j.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;microduino反面图&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='microduino反面图' src='http://ww2.sinaimg.cn/large/a74e55b4jw1e0jwtffzdaj.jpg' /&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Makeblock</title>
+   <link href="http://wiki.viewc.com/makeblock.html"/>
+   <updated>2013-01-06T00:00:00+08:00</updated>
+   <id>http://wiki.viewc.com/makeblock</id>
+   <content type="html">&lt;p&gt;Makeblock号称是要做开源硬件的乐高，从kickstarter上面的募资情况来看还算乐观。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='makeblock做的海滩行走兽' src='http://ww2.sinaimg.cn/mw690/72f2af1bjw1dzt7kix96wj.jpg' /&gt;&lt;/p&gt;
+
+&lt;h2 id='id76'&gt;国内如何购买？&lt;/h2&gt;
+
+&lt;p&gt;见&lt;a href='http://www.makeblock.cc/distributors/'&gt;分销商页面&lt;/a&gt;, 目前国内很少能买到，估计需要代购:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href='http://www.dfrobot.com/index.php?route=product/search&amp;amp;filter_name=makeblock'&gt;DFRobot&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='http://imall.iteadstudio.com/prototyping/mechanical-case/makeblock.html'&gt;iTead&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='http://www.seeedstudio.com/depot/index.php?main_page=advanced_search_result&amp;amp;search_in_description=0&amp;amp;keyword=makeblock+kit&amp;amp;px=0&amp;amp;y=0'&gt;Seeedstudio&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='id77'&gt;链接&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href='http://www.makeblock.cc'&gt;Makeblock官方网站&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>arduino due</title>
+   <link href="http://wiki.viewc.com/arduino-due.html"/>
+   <updated>2013-01-06T00:00:00+08:00</updated>
+   <id>http://wiki.viewc.com/arduino-due</id>
+   <content type="html">&lt;p&gt;Arduino Due 是 Arduino 家族新的微控制器板，这是首个采用 32 位 ARM 处理器的开发板，Atmel SAM3X8E ARM Cortex-M3 MCU 提升了所有标准的 Arduino 功能，同时增加更多新特性。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;注意它的工作电压是3.3v&lt;/strong&gt;，和之前的arduino都不一样&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='arduino due' src='http://ww1.sinaimg.cn/large/a74ecc4cjw1e0jtvhjvy0j.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;Arduino Due 提供 54 个数字输入输出管脚（其中 12 个可用于 PWM 输出，支持可选分辨率），12 个模拟输入，4个 UARTs（硬件串口）和两个 DAC 输出（数模转换），84 MHz 晶振，两个 USB 口，一个电源插口，一个 ICSP 头，一个 JTAG 头和一个 Reset 按钮。I/O 管脚最大可提供 3.3v 电源，注意 5 伏电压会损坏开发板。&lt;/p&gt;
+
+&lt;h2 id='id74'&gt;售价&lt;/h2&gt;
+
+&lt;p&gt;这块板子目前在淘宝上的售价为300~400左右&lt;/p&gt;
+
+&lt;h2 id='id75'&gt;链接&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href='http://arduino.cc/en/Main/ArduinoBoardDue'&gt;arduino due&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>arduino</title>
+   <link href="http://wiki.viewc.com/arduino.html"/>
+   <updated>2013-01-06T00:00:00+08:00</updated>
+   <id>http://wiki.viewc.com/arduino</id>
+   <content type="html">&lt;p&gt;近年来arduino的发展很快，出现了各种版本。在不同使用场景下需求也不一样。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;在原型测试之类的情况下，希望arduino比较容易使用，例如能够适用手头各种电源，接插扩展板方便等等，现在官方版本的arduino已经很好用。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;* 在产品化阶段，将整个模块最小化，这个最小化不仅包括体积，也包括周边元件。&lt;/p&gt;
+
+&lt;h2 id='id72'&gt;官方版本&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href='arduino-due.html'&gt;arduino-due&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='id73'&gt;衍生版本&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href='tinyduino.html'&gt;TinyDuino&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='dfrobot-dreamer-mega.html'&gt;DFRobot的Dreamer MEGA主板&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='microduino.html'&gt;microduino&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Eagle元件库</title>
+   <link href="http://wiki.viewc.com/eagle-library.html"/>
+   <updated>2013-01-05T00:00:00+08:00</updated>
+   <id>http://wiki.viewc.com/eagle-library</id>
+   <content type="html">&lt;h2 id='mac'&gt;Mac下的使用问题&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Open Eagle and select the Control Panel window.&lt;/li&gt;
+
+&lt;li&gt;Choose Options and from the drop down that appears, Directories.&lt;/li&gt;
+
+&lt;li&gt;Change the Libraries line from: $EAGLEDIR/lbr to something like:&lt;/li&gt;
+
+&lt;li&gt;$EAGLEDIR/lbr:$HOME/external_lbrs (for OS X)&lt;/li&gt;
+
+&lt;li&gt;Click OK to save your changes.&lt;/li&gt;
+
+&lt;li&gt;Eagle will prompt to create the directory if it does not already exist. Note the location and choose Yes to create the directory.&lt;/li&gt;
+
+&lt;li&gt;Restart Eagle. The library should be now be usable.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id='id68'&gt;元件库同步&lt;/h3&gt;
+
+&lt;p&gt;最简单的办法就是通过Dropbox同步，把自定义的lbr文件放在Dropbox下，然后做一个软链接，例如：&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+ln -s ~/Dropbox/custom.lbr your-dest.lbr
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id='id69'&gt;元件库的分类&lt;/h2&gt;
+
+&lt;p&gt;因为接触元器件的英文比较少，所以要从元件库里找到想要的元件，是个很麻烦的事情。常用的有：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Support &amp;#8212; 电源符号，晶振，蜂鸣器，电池等等&lt;/li&gt;
+
+&lt;li&gt;Switch_relay &amp;#8212; 开关和继电器&lt;/li&gt;
+
+&lt;li&gt;Transistor&amp;amp;Diode &amp;#8212; 三极管/Mosfet/二极管/LED等&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id='id70'&gt;第三方元件库&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href='https://github.com/sparkfun/SparkFun-Eagle-Libraries'&gt;SparkFun&lt;/a&gt; - 分类很好的元件库，感觉比eagle自带的要好找&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='id71'&gt;参考资料&lt;/h2&gt;
+
+&lt;p&gt;注：这两个链接是针对5.x系列的，有些脱节&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href='http://www.geek-workshop.com/thread-94-1-1.html'&gt;元件库的绘制&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='http://www.geek-workshop.com/thread-427-1-1.html'&gt;元件库的提取方法&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>串口电平转换</title>
+   <link href="http://wiki.viewc.com/serial-ttl-converter.html"/>
+   <updated>2013-01-04T00:00:00+08:00</updated>
+   <id>http://wiki.viewc.com/serial-ttl-converter</id>
+   <content type="html">&lt;h2 id='id65'&gt;串口电平为什么需要转换&lt;/h2&gt;
+
+&lt;p&gt;输出电平为准，假设A芯片是5V的，它输出的高电平是5V，而另一芯片的供电电源是3.3V的，它能承受的输入电压应该低于5V,所以才会需要电平转换。反之，3.3V芯片输出的高电平是2.4V到3.3V,而5V芯片的输入要确定是高电平需要3.5V左右的电平。 如达不到，信号就会出错。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;信号电平转换方式，左侧是5V CPU的输出信号，右侧是3.3V CPU的输入信号&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img alt='ttl' src='http://ww4.sinaimg.cn/large/a74ecc4cjw1e0hn0pxikfj.jpg' /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;这个刚好是反过来，3.3V信号转5V信号&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img alt='ttl' src='http://ww3.sinaimg.cn/large/a74eed94jw1e0hn1b2brjj.jpg' /&gt;&lt;/p&gt;
+
+&lt;h2 id='id66'&gt;可用芯片&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;TI出品的&lt;a href='http://www.ti.com.cn/product/cn/txb0104'&gt;TXB0104&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;(ACTIVE) 具有自动方向感应和 +/-15kV ESD 保护的 4 位双向电压电平转换器&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='TXB0104' src='http://www.ti.com/graphics/folders/partimages/TXB0104.jpg' /&gt;&lt;/p&gt;
+
+&lt;h2 id='id67'&gt;文档&lt;/h2&gt;
+
+&lt;p&gt;大部分的arduino板都是工作在5V的，只有一个奇葩arduino due工作在3.3V&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Eagle体验</title>
+   <link href="http://wiki.viewc.com/eagle.html"/>
+   <updated>2013-01-03T00:00:00+08:00</updated>
+   <id>http://wiki.viewc.com/eagle</id>
+   <content type="html">&lt;h2 id='id61'&gt;初步认识&lt;/h2&gt;
+
+&lt;p&gt;我安装了免费试用版，这是指以免费+可选收费模式使用的版本，该版本需要在&lt;a href='http://www.element-14.com/eagle-freemium'&gt;eagle的网页&lt;/a&gt;上注册才能使用，并且具有以下限制：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;电路板区域尺寸最大100x80mm（约3.9x3.2英寸），与一张欧洲信用卡的一半大小相同。&lt;/li&gt;
+
+&lt;li&gt;只能使用4个信号层（顶层、Route2、Route15、底层）。&lt;/li&gt;
+
+&lt;li&gt;原理图可以包含最多4页。 * 免费授权仅限于单个用户和计算机，并且需要连接到互联网以便正常运行。&lt;/li&gt;
+
+&lt;li&gt;该授权有效期为安装后60天内。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img alt='About eagle' src='http://ww1.sinaimg.cn/large/a74eed94jw1e0gjm1wn3zj.jpg' /&gt;&lt;/p&gt;
+
+&lt;h2 id='id62'&gt;分类&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href='eagle-library.html'&gt;Eagle元件库&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='id63'&gt;体会&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;在Mac下很慢 * 操作比较麻烦&lt;/li&gt;
+
+&lt;li&gt;找元件比较花时间，例如电压转换的AMS1117&lt;sup id='fnref:1'&gt;&lt;a href='#fn:1' rel='footnote'&gt;1&lt;/a&gt;&lt;/sup&gt;需要在vb-e这个元件库里才能找到，无规律 * 制板时不要走直角线，可能会存在信号反射的问题，引起干扰等等&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='id64'&gt;文档&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href='http://eagle.timll.com/down/manual/EAGLE_UserGuide.pdf'&gt;用户指南第5版 - PDF版&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class='footnotes'&gt;&lt;hr /&gt;&lt;ol&gt;&lt;li id='fn:1'&gt;
+&lt;p&gt;三端稳压输出IC, 见&lt;a href='ams1117.html'&gt;AMS1117&lt;/a&gt;&lt;/p&gt;
+&lt;a href='#fnref:1' rev='footnote'&gt;&amp;#8617;&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</content>
+ </entry>
+ 
+ 
+</feed>
