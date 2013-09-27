@@ -1,11 +1,4 @@
----
-layout: post
-title: "Makeblock"
-description: "开源硬件的乐高"
-category: 
-tags: []
----
-{% include JB/setup %}
+# Makeblock
 
 Makeblock号称是要做开源硬件的乐高，从kickstarter上面的募资情况来看还算乐观。
 
