@@ -7,6 +7,7 @@
 
 ## iOS开发
 
+* [iBeacon](ibeacon.html)
 * [The Apple Notification Center Service](ancs.html)
 
 ### 关于RSSI
