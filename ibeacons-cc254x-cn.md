@@ -19,5 +19,5 @@
 
 ## 如何通过蓝牙远程升级固件
 
-本固件提供了OAD远程升级固件的功能，可以用TI公司提供的iOS应用程序Multitool升级。
+本固件提供了OAD远程升级固件的功能，可以用TI公司提供的iOS应用程序[Multitool](https://itunes.apple.com/app/id580494818?mt=8)升级。
 
