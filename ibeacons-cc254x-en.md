@@ -2,7 +2,7 @@
 
 ## Features
 
-* Default Proximity UUID for iBeacons : ``E2C56DB5-DFFB-48D2-B060-D0F5A71096E0```
+* Default Proximity UUID for iBeacons : ```E2C56DB5-DFFB-48D2-B060-D0F5A71096E0```
 * Default major/minor identifier : 0
 * Default power : -59
 * Default pair password : 19566
