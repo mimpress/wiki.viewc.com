@@ -5,6 +5,7 @@
 * 默认的iBeacons UUID是```E2C56DB5-DFFB-48D2-B060-D0F5A71096E0```
 * 默认的major, minor identifier都是0
 * 默认的power发送功率标识为-59
+* 默认的配对密码19566
 
 ## 如何修改iBeacons UUID
 
