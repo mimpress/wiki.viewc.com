@@ -21,3 +21,9 @@
 
 本固件提供了OAD远程升级固件的功能，可以用TI公司提供的iOS应用程序[Multitool](https://itunes.apple.com/app/id580494818?mt=8)升级。
 
+## Q&A
+
+Q:这个固件可以控制发射功率吗？
+A:不可以，发射功率是固定的。
+
+
