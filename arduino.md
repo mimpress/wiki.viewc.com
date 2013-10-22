@@ -15,6 +15,7 @@
 
 | Name | Picture |
 ----|----|----
+| [ProMicro](pro-micro.html) | ![Pro Micro](https://dlnmh9ip6v2uc.cloudfront.net/images/products/1/1/0/9/8/11098-01a_i_ma.jpg)|
 | [TinyDuino](tinyduino.html) | ![TinyDuino](http://ww1.sinaimg.cn/thumbnail/a74ecc4cjw1e0pe4b1br3j.jpg)|
 | [DFRobot的Dreamer MEGA主板](dfrobot-dreamer-mega.html) | ![dfrobot dreamer mega](http://ww2.sinaimg.cn/thumbnail/826db6f8jw1e0ky7hmdv7j.jpg)|
 | [Microduino](microduino.html) | ![microduio](http://ww2.sinaimg.cn/thumbnail/a74e55b4jw1e0jwtffzdaj.jpg) |
