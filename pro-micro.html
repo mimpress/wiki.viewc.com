@@ -3,7 +3,7 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Arduino</title>
+    <title>Pro Micro</title>
     <link rel="stylesheet" href="/css/screen.css" type="text/css" charset="utf-8" />
     <link rel="stylesheet" href="/css/gollum.css" type="text/css" charset="utf-8" />
     <link rel="stylesheet" href="/css/syntax.css" type="text/css" charset="utf-8" />
@@ -31,52 +31,31 @@
                   <a href="/Home.html">Home</a>
                 </div>
               </div>
-              <h1>Arduino</h1>
+              <h1>Pro Micro</h1>
               <div class="content wikistyle gollum markdown">
-                <h1>Arduino</h1>
+                <h1>Pro Micro</h1>
 
-<p>近年来arduino的发展很快，出现了各种版本。在不同使用场景下需求也不一样。</p>
+<p>SparkFun出品的arduino兼容板，基于ATmega32U4，自带micro usb接口。</p>
+
+<h2>Upload注意事项</h2>
+
+<p>在Arduino上传时，需要连按两次reset按钮，也就是将reset和gnd连续短接两次。这个重要的技巧没有在入门文档中列出，所以很容易导致失败。</p>
+
+<blockquote>
+<p>There are a few things that need to be updated on the info to avoid unnecessary trouble.</p>
+
+<p>This board (current version) comes with Caterina bootloader, instead of Diskloader (as described in the Arduino Buying Guide page). Please update to correct that.</p>
+
+<p>The Caterina bootloader is modified so that it does NOT enter bootloader mode unless you reset twice in short interval. This is specified in the “Firmware Note”. But it is not mentioned at all in the “Getting Started Tutorial”. As a result, uploading from Arduino IDE would not work directly.</p>
+
+<p>Because there is no reset button on this board, to load user code onto this board (with Arduino IDE / AvrDude), you will need to short RESET pin to GND pin with a wire twice in short interval (right before or after you pressed upload in Arduino IDE or started AvrDude). This will bring the board to bootloader mode in order to receive the uploaded user code.</p>
+</blockquote>
+
+<h2>相关连接</h2>
 
 <ul>
-<li>在原型测试之类的情况下，希望arduino比较容易使用，例如能够适用手头各种电源，接插扩展板方便等等，现在官方版本的arduino已经很好用。</li>
-<li>在产品化阶段，将整个模块最小化，这个最小化不仅包括体积，也包括周边元件。</li>
-</ul><h2>官方版本</h2>
-
-<table>
-<thead><tr>
-<th>Name</th>
-<th>Picture</th>
-</tr></thead>
-<tbody><tr>
-<td><a href="arduino-due.html">arduino-due</a></td>
-<td><img src="http://ww1.sinaimg.cn/thumbnail/a74ecc4cjw1e0jtvhjvy0j.jpg" alt="arduino-due"></td>
-</tr></tbody>
-</table><h2>衍生版本</h2>
-
-<table>
-<thead><tr>
-<th>Name</th>
-<th>Picture</th>
-</tr></thead>
-<tbody>
-<tr>
-<td><a href="pro-micro.html">ProMicro</a></td>
-<td><img src="https://dlnmh9ip6v2uc.cloudfront.net/images/products/1/1/0/9/8/11098-01a_i_ma.jpg" alt="Pro Micro"></td>
-</tr>
-<tr>
-<td><a href="tinyduino.html">TinyDuino</a></td>
-<td><img src="http://ww1.sinaimg.cn/thumbnail/a74ecc4cjw1e0pe4b1br3j.jpg" alt="TinyDuino"></td>
-</tr>
-<tr>
-<td><a href="dfrobot-dreamer-mega.html">DFRobot的Dreamer MEGA主板</a></td>
-<td><img src="http://ww2.sinaimg.cn/thumbnail/826db6f8jw1e0ky7hmdv7j.jpg" alt="dfrobot dreamer mega"></td>
-</tr>
-<tr>
-<td><a href="microduino.html">Microduino</a></td>
-<td><img src="http://ww2.sinaimg.cn/thumbnail/a74e55b4jw1e0jwtffzdaj.jpg" alt="microduio"></td>
-</tr>
-</tbody>
-</table>
+<li><a href="https://www.sparkfun.com/products/11098">Pro Micro - 5V/16MHz</a></li>
+</ul>
               </div>
             </div>
           </div>
