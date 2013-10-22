@@ -17,3 +17,9 @@ In more general terms, the feature can also be used enable indoor navigation sim
 This particular application makes iBeacons an extension of the geofencing Apple enabled in last year’s Passbook, which lets an installed pass, ticket or loyalty card popup on the lock screen when you cross the geofence threshold of a defined GPS location. Using BLE, a merchant or other provider can define more targeted “micro-locations” to trigger an alert, in some cases requiring that you be in the presence of an iBeacon in order to validate a Passbook entry .
 
 You can “create ads that specifically pertain to your customers’ surroundings, thereby increasing the efficacy of those ads,” or simply supply additional details on product selection.
+
+## Developer
+
+* [Example Code For iBeacons Developer](ibeacons-example-code-en.html)
+* [iBeacons开发示例代码](ibeacons-example-code-cn.html)
+
