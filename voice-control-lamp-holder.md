@@ -1,11 +1,4 @@
----
-layout: post
-title: "声控转换灯头"
-description: ""
-category: 
-tags: [照明]
----
-{% include JB/setup %}
+# 声控转换灯头
 
 声控转换灯头，可将普通的螺口球泡灯转换为带声控的灯泡。淘宝上售价从5块到100块不等。
 

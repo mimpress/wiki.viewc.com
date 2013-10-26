@@ -1,11 +1,4 @@
----
-layout: post
-title: "鲜牛奶"
-description: ""
-category: 
-tags: [milk, 食品]
----
-{% include JB/setup %}
+# 鲜牛奶
 
 鲜牛奶以经过巴氏杀菌的牛奶为宜，冷藏保存。目前成功做成酸奶的鲜牛奶有这几种:
 

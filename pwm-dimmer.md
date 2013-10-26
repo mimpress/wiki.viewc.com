@@ -1,11 +1,4 @@
----
-layout: post
-title: "PWM调光"
-description: ""
-category: "电子电路"
-tags: [调光, led]
----
-{% include JB/setup %}
+# PWM调光
 
 LED元件比较适合采用PWM信号调光。这是因为 
 

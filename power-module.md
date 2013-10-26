@@ -1,11 +1,4 @@
----
-layout: post
-title: "电源模块"
-description: ""
-category: 
-tags: []
----
-{% include JB/setup %}
+# 电源模块
 
 电源IC需要做去耦处理
 

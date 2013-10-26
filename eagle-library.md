@@ -1,12 +1,4 @@
----
-layout: post
-title: "Eagle元件库"
-description: "元件库"
-category: "电子电路"
-tags: [eagle, 软件]
----
-{% include JB/setup %}
-
+# Eagle元件库
 
 ## Mac下的使用问题
 

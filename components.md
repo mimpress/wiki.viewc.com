@@ -14,6 +14,8 @@
 
 * [CL6807](cl6807.html)
 * [PT4115](pt4115.html)
+* [mb39c602](mb39c602.html)
+* [声控转换灯头](voice-control-lamp-holder.html)
 
 ## 工具或其它
 

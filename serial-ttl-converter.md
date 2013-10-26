@@ -1,11 +1,4 @@
----
-layout: post
-title: "串口电平转换"
-description: "电平转换"
-category: "电子电路"
-tags: [串口]
----
-{% include JB/setup %}
+# 串口电平转换
 
 ## 串口电平为什么需要转换
 

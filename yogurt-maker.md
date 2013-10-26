@@ -1,11 +1,4 @@
----
-layout: post
-title: "酸奶机"
-description: ""
-category: 家用电器
-tags: [milk]
----
-{% include JB/setup %}
+# 酸奶机
 
 酸奶机用来提供酸奶发酵菌的恒温环境,大概40度左右。
 

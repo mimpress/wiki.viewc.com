@@ -1,11 +1,4 @@
----
-layout: post
-title: "DFRobot的Dreamer MEGA主板"
-description: ""
-category: 
-tags: [arduino]
----
-{% include JB/setup %}
+# DFRobot的Dreamer MEGA主板
 
 主要好处就是扩展模块的接线方便了很多，都通过标准电缆连接。
 

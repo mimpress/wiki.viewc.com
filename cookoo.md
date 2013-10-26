@@ -1,11 +1,4 @@
----
-layout: post
-title: "cookoo智能手表"
-description: ""
-category: 
-tags: [蓝牙4.0]
----
-{% include JB/setup %}
+# cookoo智能手表
 
 COOKOO智能手表，第一次打开之后提示要访问以下资源
 

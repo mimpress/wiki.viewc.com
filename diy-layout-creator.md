@@ -1,11 +1,4 @@
----
-layout: post
-title: "万能板电路设计工具"
-description: "万能板电路设计工具"
-category: 
-tags: [电子电路, 软件]
----
-{% include JB/setup %}
+# 万能板电路设计工具
 
 Diy Layout Creator, 万能板电路设计工具，免费。看上去是用java写成。
 

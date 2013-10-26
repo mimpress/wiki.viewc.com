@@ -1,11 +1,4 @@
----
-layout: post
-title: "Eagle体验"
-description: ""
-category: "电子电路"
-tags: [eagle, 软件]
----
-{% include JB/setup %}
+# Eagle体验
 
 ## 初步认识
 
