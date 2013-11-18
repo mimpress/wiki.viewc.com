@@ -5,27 +5,34 @@
 1. 在iTunes上点开连上的手机 - 应用程序标签 - 然后翻页，找到文件共享部分 - 选中Multitool
 1. 将升级固件拖拽至“Multitool”的文稿区域
 1. 打开Multitool工具，按照下面的步骤升级
+1. 找到需要升级的iBeacons模块并点击
 
-找到需要升级的iBeacons模块并点击
-![oad_1](http://img.viewc.com/oad/oad_1.png)
+ ![oad_1](http://img.viewc.com/oad/oad_1.png)
 
-点左下的Profiles
-![oad_2](http://img.viewc.com/oad/oad_2.png)
+1. 点左下的Profiles
 
-点开TI OAD Profile
-![oad_3](http://img.viewc.com/oad/oad_3.png)
+ ![oad_2](http://img.viewc.com/oad/oad_2.png)
 
-点OK
-![oad_4](http://img.viewc.com/oad/oad_4.png)
+1. 点开TI OAD Profile
 
-点Upload ... image
-![oad_5](http://img.viewc.com/oad/oad_5.png)
+ ![oad_3](http://img.viewc.com/oad/oad_3.png)
 
-点Shared files
-![oad_6](http://img.viewc.com/oad/oad_6.png)
+1. 点OK
 
-点升级的bin文件
-![oad_7](http://img.viewc.com/oad/oad_7.png)
+ ![oad_4](http://img.viewc.com/oad/oad_4.png)
 
-升级界面，大概需要3分钟。注意期间不要让手机休眠
-![oad_8](http://img.viewc.com/oad/oad_8.png)
+1. 点Upload ... image
+
+ ![oad_5](http://img.viewc.com/oad/oad_5.png)
+
+1. 点Shared files
+
+ ![oad_6](http://img.viewc.com/oad/oad_6.png)
+
+1. 点升级的bin文件
+
+ ![oad_7](http://img.viewc.com/oad/oad_7.png)
+
+1. 升级界面，大概需要3分钟。注意期间不要让手机休眠
+
+ ![oad_8](http://img.viewc.com/oad/oad_8.png)
