@@ -15,3 +15,6 @@ A:iOS监测的距离是根据iBeacons的信号强度来判断的，在信号越�
 1. 是在空旷环境下，将iBeacons放在离iOS设备1米远的地方
 1. 利用AirLocate的calibrate选项来重新计算一个较佳的power值。
 1. 把校正后的power值更新到iBeacons设备上。
+
+## Q:如何通过OAD远程升级固件？
+A: 请参考[iBeacons固件升级方法](ibeacons-oad-upgrade-cn.html)
