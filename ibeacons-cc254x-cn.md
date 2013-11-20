@@ -23,3 +23,7 @@
 本固件提供了OAD远程升级固件的功能，可以用TI公司提供的iOS应用程序[Multitool](https://itunes.apple.com/app/id580494818?mt=8)升级。[升级详细步骤](ibeacons-oad-upgrade-cn.html)
 
 更多关于本固件的问题请参考[iBeacons相关问题](ibeacons-qa-cn.html)
+
+## 相关链接
+
+* [版本升级记录](ibeacons-changelog.html)
