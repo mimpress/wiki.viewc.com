@@ -3,7 +3,7 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>TinyDuino</title>
+    <title>How to upgrade firmware for iBeacons</title>
     <link rel="stylesheet" href="/css/screen.css" type="text/css" charset="utf-8" />
     <link rel="stylesheet" href="/css/gollum.css" type="text/css" charset="utf-8" />
     <link rel="stylesheet" href="/css/syntax.css" type="text/css" charset="utf-8" />
@@ -31,41 +31,57 @@
                   <a href="/Home.html">Home</a>
                 </div>
               </div>
-              <h1>TinyDuino</h1>
+              <h1>How to upgrade firmware for iBeacons</h1>
               <div class="content wikistyle gollum markdown">
-                <h1>TinyDuino</h1>
+                <h1>How to upgrade firmware for iBeacons</h1>
 
-<p>缩小版的arduino衍生版本，主板的大小和一块硬币大小，非常适合作为原型开发的工具。</p>
+<ol>
+<li>Download app <a href="https://itunes.apple.com/app/id580494818?mt=8">Multitool</a>.</li>
+<li>Open iTunes at your PC and connect your iPhone with usb cable.</li>
+<li>Click the iPhone in iTunes - Click Application tab - Make the page down, find the file share - Choose Multitool</li>
+<li>Drag the firmware file to Multitool's Documents area</li>
+<li>Open Multitool in iPhone，follow these step to upgrade.</li>
+<li>
+<p>Found the iBeacons module and tap it</p>
 
-<ul>
-<li>支持类似arduino一样的堆叠，接口是自定义的，更密集，相比排针的形式体积要小了许多。 </li>
-<li>主板背面是钮扣电池槽。</li>
-<li>没有内建的电压转换，因为体积小。所以输入电压不要超过5.6v。 </li>
-<li>烧写程序需要使用它提供的底板。</li>
-<li>完全开源，电路图，原理图以及3D效果图都在它的网站上提供了。[^github]</li>
-</ul>
+<p><img src="http://img.viewc.com/oad/oad_1.png" alt="oad_1"></p>
+</li>
+<li>
+<p>Click Profiles at bottom left</p>
 
-<p>做为姐妹版，还有TinyLily适合穿戴式设计，比一块硬币还要小。可参见其官方网站<a>^tinycircuits</a></p>
+<p><img src="http://img.viewc.com/oad/oad_2.png" alt="oad_2"></p>
+</li>
+<li>
+<p>Click TI OAD Profile</p>
 
-<h2>图片</h2>
+<p><img src="http://img.viewc.com/oad/oad_3.png" alt="oad_3"></p>
+</li>
+<li>
+<p>Click OK</p>
 
-<p>主板正面</p>
+<p><img src="http://img.viewc.com/oad/oad_4.png" alt="oad_4"></p>
+</li>
+<li>
+<p>Click Upload ... image</p>
 
-<p><img src="http://ww1.sinaimg.cn/large/a74ecc4cjw1e0pe4b1br3j.jpg" alt="正面"></p>
+<p><img src="http://img.viewc.com/oad/oad_5.png" alt="oad_5"></p>
+</li>
+<li>
+<p>Click Shared files</p>
 
-<p>可上钮扣电池的背面</p>
+<p><img src="http://img.viewc.com/oad/oad_6.png" alt="oad_6"></p>
+</li>
+<li>
+<p>Click the bin file to upgrade</p>
 
-<p><img src="http://ww3.sinaimg.cn/large/a74eed94jw1e0pe57y987j.jpg" alt="主板背面"></p>
+<p><img src="http://img.viewc.com/oad/oad_7.png" alt="oad_7"></p>
+</li>
+<li>
+<p>The screen for upgrade. Please keep the iPhone awake.</p>
 
-<p>通过这种插槽堆叠起来</p>
-
-<p><img src="http://ww1.sinaimg.cn/large/a74e55b4jw1e0pe68iy7qj.jpg" alt="扩展板背面"></p>
-
-<h2>Kickstarter</h2>
-
-<p>tiny circuits在kickstarter上已经有6个成功集资的项目，多数项目都和arduino相关。</p>
-
-<p>[^github]: 源码在 <a href="https://github.com/TinyCircuits">github</a></p>
+<p><img src="http://img.viewc.com/oad/oad_8.png" alt="oad_8"></p>
+</li>
+</ol>
 
               </div>
             </div>
