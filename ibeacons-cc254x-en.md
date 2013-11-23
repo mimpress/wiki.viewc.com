@@ -22,3 +22,6 @@ You can connect the service UUID ```FFF0```, change the params for advertise.
 
 The firmware provide OAD(Over-the-Air) function to upgrade firmware. You can do it with [Multitool provided by TI](https://itunes.apple.com/app/id580494818?mt=8).
 
+* [The steps for upgrade firmware](ibeacons-oad-upgrade-en.html)
+* [Firmware ChangeLog](ibeacons-changelog.html)
+
