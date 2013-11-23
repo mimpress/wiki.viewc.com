@@ -2,7 +2,7 @@
 
 1. Download app [Multitool](https://itunes.apple.com/app/id580494818?mt=8).
 1. Open iTunes at your PC and connect your iPhone with usb cable.
-1. Click the iPhone in iTunes - Click Application tab - Make the page down, find the file share - Choose Multitool
+1. Click the iPhone in iTunes - Click Application tab - Make the page down, find the "File Sharing" - Choose Multitool
 1. Drag the firmware file to Multitool's Documents area
 1. Open Multitool in iPhone，follow these step to upgrade.
 1. Found the iBeacons module and tap it
