@@ -22,3 +22,7 @@
 
 * [GATT已分配的service列表](http://developer.bluetooth.org/gatt/services/Pages/ServicesHome.aspx)
 * [Bluetooth Accessory Design Guidelines for Apple Products - PDF](https://developer.apple.com/hardwaredrivers/BluetoothDesignGuidelines.pdf)
+
+## BLE Module
+
+* [cc2540](cc2540.html)
