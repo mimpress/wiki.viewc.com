@@ -3,7 +3,7 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>TTL CC2540-A1 Wireless Bluetooth 4.0 Transceiver Module</title>
+    <title>cc2540 module</title>
     <link rel="stylesheet" href="/css/screen.css" type="text/css" charset="utf-8" />
     <link rel="stylesheet" href="/css/gollum.css" type="text/css" charset="utf-8" />
     <link rel="stylesheet" href="/css/syntax.css" type="text/css" charset="utf-8" />
@@ -31,16 +31,15 @@
                   <a href="/Home.html">Home</a>
                 </div>
               </div>
-              <h1>TTL CC2540-A1 Wireless Bluetooth 4.0 Transceiver Module</h1>
+              <h1>cc2540 module</h1>
               <div class="content wikistyle gollum markdown">
-                <h1>TTL CC2540-A1 Wireless Bluetooth 4.0 Transceiver Module</h1>
+                <h1>TTL CC2540-A1 Wireless Bluetooth 4.0 Transceiver Module<a class="anchor" id="TTL-CC2540-A1-Wireless-Bluetooth-4.0-Transceiver-Module" href="#TTL-CC2540-A1-Wireless-Bluetooth-4.0-Transceiver-Module"></a></h1>
 
 <p>The CC2540-A1 module is a cost-effective, low-power, true system-on-chip (SoC) for Bluetooth low energy applications. </p>
 
-<h2>Features and Benefits</h2>
+<h2>Features and Benefits<a class="anchor" id="Features-and-Benefits" href="#Features-and-Benefits"></a></h2>
 
-<ul>
-<li>Can be set for the baud rate, stop bit, parity check parameters via AT commands.</li>
+<ul><li>Can be set for the baud rate, stop bit, parity check parameters via AT commands.</li>
 <li>Enabling Long-Range Applications</li>
 <li>Bluetooth Specification v4.0</li>
 <li>Frequency: 2.4GHz ISM band.</li>
@@ -48,71 +47,55 @@
 <li>Compliance With FCC &amp; CE standard</li>
 <li>Sample Applications and Profiles</li>
 <li>Worked at ble periphal mode</li>
-</ul><h2>Description</h2>
+</ul><h2>Description<a class="anchor" id="Description" href="#Description"></a></h2>
 
 <p>The RX characteristic can be notified. If you enable notifications on the RX characteristic there is no need to poll for new data. The module will send you the data automatically.</p>
 
-<ul>
-<li>RX characteristic: D3E60004-8F36-40D6-B2D5-C5D9F5E81869</li>
+<ul><li>RX characteristic: D3E60004-8F36-40D6-B2D5-C5D9F5E81869</li>
 <li>TX characteristic: D3E60005-8F36-40D6-B2D5-C5D9F5E81869</li>
 <li>Allow max 20bytes of data.</li>
 <li>Default Baud rate: 9600</li>
 <li>Work voltage: 2 - 3.3v.</li>
-</ul><h2>Pinout</h2>
+</ul><h2>Pinout<a class="anchor" id="Pinout" href="#Pinout"></a></h2>
 
-<ul>
-<li>P0.2 - RX</li>
+<ul><li>P0.2 - RX</li>
 <li>P0.3 - TX</li>
-</ul><h2>Demo code</h2>
+</ul><h2>Demo code<a class="anchor" id="Demo-code" href="#Demo-code"></a></h2>
 
-<ul>
-<li><a href="https://github.com/volca/BlueShieldDemo">Xcode project for iOS6</a></li>
-</ul><h2>AT Command</h2>
+<ul><li><a href="https://github.com/volca/BlueShieldDemo">Xcode project for iOS6</a></li>
+</ul><h2>AT Command<a class="anchor" id="AT-Command" href="#AT-Command"></a></h2>
 
-<table>
-<thead><tr>
-<th>Description</th>
+<table><thead><tr><th>Description</th>
 <th>AT Command</th>
 <th>Response</th>
 <th>Parameters</th>
-</tr></thead>
-<tbody>
-<tr>
-<td>Set device name</td>
+</tr></thead><tbody><tr><td>Set device name</td>
 <td>AT+NAME[param1]</td>
 <td>OK+Set:[param1]</td>
-<td>param1 : device name. <br>max length 11. <br>Default: BlueShield</td>
-</tr>
-<tr>
-<td>Set baud rate</td>
+<td>param1 : device name. <br />max length 11. <br />Default: BlueShield</td>
+</tr><tr><td>Set baud rate</td>
 <td>AT+BAUD[param1]</td>
 <td>OK+Set:[param1]</td>
-<td>param1 : 0 - 4. <br>0: 9600, 1: 19200<br>2: 38400, 3: 57600<br>4:115200<br>Default: 0 (9600)</td>
-</tr>
-<tr>
-<td>Set stop bit</td>
+<td>param1 : 0 - 4. <br />0: 9600, 1: 19200<br />2: 38400, 3: 57600<br />4:115200<br />Default: 0 (9600)</td>
+</tr><tr><td>Set stop bit</td>
 <td>AT+STOP[param1]</td>
 <td>OK+Set:[param1]</td>
-<td>param1 : 0 - 1. <br>0: 1 stop bit, 1: 2 stop bit<br>Default: 0</td>
-</tr>
-<tr>
-<td>Set parity check</td>
+<td>param1 : 0 - 1. <br />0: 1 stop bit, 1: 2 stop bit<br />Default: 0</td>
+</tr><tr><td>Set parity check</td>
 <td>AT+PARI[param1]</td>
 <td>OK+Set:[param1]</td>
-<td>param1 : 0,1,2. <br>0: no parity check, 1: even<br>2: odd <br>Default: 0</td>
-</tr>
-</tbody>
-</table><h2>Compatible devices</h2>
+<td>param1 : 0,1,2. <br />0: no parity check, 1: even<br />2: odd <br />Default: 0</td>
+</tr></tbody></table><h2>Compatible devices<a class="anchor" id="Compatible-devices" href="#Compatible-devices"></a></h2>
 
 <p>iPhone 5, iPhone 4S, iPad mini, iPad with Retina display (4th gen), iPad (3rd gen) or iPod touch (5th gen) with iOS Version 5.1.1 or above.</p>
 
 <p>Devices not in the above list does not have the hardware to support Bluetooth 4.0 Low Energy.</p>
 
-<h2>CAUTION:</h2>
+<h2>CAUTION:<a class="anchor" id="CAUTION:" href="#CAUTION:"></a></h2>
 
 <p>ESD sensitive device. Precautions should be used when handing the device in order to prevent permanent damage.</p>
 
-<h2>NOTE:</h2>
+<h2>NOTE:<a class="anchor" id="NOTE:" href="#NOTE:"></a></h2>
 
 <p>Additional information on the Texas Instruments CC2540</p>
 
@@ -122,7 +105,7 @@
           </div>
           <div class="admin">
             <div style="float: left;">
-              <small>Last edited by <b>yancan</b>, 2013-11-20 15:18:04</small>
+              <small>Last edited by <b>Linlinqi</b>, 2013-12-05 16:08:26</small>
             </div>
           </div>
         </div>

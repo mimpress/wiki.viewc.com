@@ -3,7 +3,7 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>串口电平转换</title>
+    <title>serial ttl converter</title>
     <link rel="stylesheet" href="/css/screen.css" type="text/css" charset="utf-8" />
     <link rel="stylesheet" href="/css/gollum.css" type="text/css" charset="utf-8" />
     <link rel="stylesheet" href="/css/syntax.css" type="text/css" charset="utf-8" />
@@ -31,32 +31,28 @@
                   <a href="/Home.html">Home</a>
                 </div>
               </div>
-              <h1>串口电平转换</h1>
+              <h1>serial ttl converter</h1>
               <div class="content wikistyle gollum markdown">
-                <h1>串口电平转换</h1>
+                <h1>串口电平转换<a class="anchor" id="串口电平转换" href="#串口电平转换"></a></h1>
 
-<h2>串口电平为什么需要转换</h2>
+<h2>串口电平为什么需要转换<a class="anchor" id="串口电平为什么需要转换" href="#串口电平为什么需要转换"></a></h2>
 
 <p>输出电平为准，假设A芯片是5V的，它输出的高电平是5V，而另一芯片的供电电源是3.3V的，它能承受的输入电压应该低于5V,所以才会需要电平转换。反之，3.3V芯片输出的高电平是2.4V到3.3V,而5V芯片的输入要确定是高电平需要3.5V左右的电平。 如达不到，信号就会出错。</p>
 
-<ul>
-<li>信号电平转换方式，左侧是5V CPU的输出信号，右侧是3.3V CPU的输入信号</li>
-</ul><p><img src="http://ww4.sinaimg.cn/large/a74ecc4cjw1e0hn0pxikfj.jpg" alt="ttl"></p>
+<ul><li>信号电平转换方式，左侧是5V CPU的输出信号，右侧是3.3V CPU的输入信号</li>
+</ul><p><img src="http://ww4.sinaimg.cn/large/a74ecc4cjw1e0hn0pxikfj.jpg" alt="ttl" /></p>
 
-<ul>
-<li>这个刚好是反过来，3.3V信号转5V信号</li>
-</ul><p><img src="http://ww3.sinaimg.cn/large/a74eed94jw1e0hn1b2brjj.jpg" alt="ttl"></p>
+<ul><li>这个刚好是反过来，3.3V信号转5V信号</li>
+</ul><p><img src="http://ww3.sinaimg.cn/large/a74eed94jw1e0hn1b2brjj.jpg" alt="ttl" /></p>
 
-<h2>可用芯片</h2>
+<h2>可用芯片<a class="anchor" id="可用芯片" href="#可用芯片"></a></h2>
 
-<ul>
-<li>TI出品的<a href="http://www.ti.com.cn/product/cn/txb0104">TXB0104</a>
-</li>
+<ul><li>TI出品的<a href="http://www.ti.com.cn/product/cn/txb0104">TXB0104</a></li>
 </ul><p>(ACTIVE) 具有自动方向感应和 +/-15kV ESD 保护的 4 位双向电压电平转换器</p>
 
-<p><img src="http://www.ti.com/graphics/folders/partimages/TXB0104.jpg" alt="TXB0104"></p>
+<p><img src="http://www.ti.com/graphics/folders/partimages/TXB0104.jpg" alt="TXB0104" /></p>
 
-<h2>文档</h2>
+<h2>文档<a class="anchor" id="文档" href="#文档"></a></h2>
 
 <p>大部分的arduino板都是工作在5V的，只有一个奇葩arduino due工作在3.3V</p>
               </div>
@@ -64,7 +60,7 @@
           </div>
           <div class="admin">
             <div style="float: left;">
-              <small>Last edited by <b>yancan</b>, 2013-11-20 15:18:04</small>
+              <small>Last edited by <b>Linlinqi</b>, 2013-12-05 16:08:26</small>
             </div>
           </div>
         </div>

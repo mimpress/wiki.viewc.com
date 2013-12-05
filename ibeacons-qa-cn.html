@@ -3,7 +3,7 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>iBeacons相关问题</title>
+    <title>ibeacons qa cn</title>
     <link rel="stylesheet" href="/css/screen.css" type="text/css" charset="utf-8" />
     <link rel="stylesheet" href="/css/gollum.css" type="text/css" charset="utf-8" />
     <link rel="stylesheet" href="/css/syntax.css" type="text/css" charset="utf-8" />
@@ -31,31 +31,30 @@
                   <a href="/Home.html">Home</a>
                 </div>
               </div>
-              <h1>iBeacons相关问题</h1>
+              <h1>ibeacons qa cn</h1>
               <div class="content wikistyle gollum markdown">
-                <h1>iBeacons相关问题</h1>
+                <h1>iBeacons相关问题<a class="anchor" id="iBeacons相关问题" href="#iBeacons相关问题"></a></h1>
 
-<h2>Q:为什么我在iPhone上通过蓝牙配对找不到它？</h2>
+<h2>Q:为什么我在iPhone上通过蓝牙配对找不到它？<a class="anchor" id="Q:为什么我在iPhone上通过蓝牙配对找不到它？" href="#Q:为什么我在iPhone上通过蓝牙配对找不到它？"></a></h2>
 
 <p>A:iBeacons基于蓝牙4.0实现，不需要经过配对。你可以在iPhone上安装LightBlue来找到它。</p>
 
-<h2>Q:这个固件可以控制发射功率吗？</h2>
+<h2>Q:这个固件可以控制发射功率吗？<a class="anchor" id="Q:这个固件可以控制发射功率吗？" href="#Q:这个固件可以控制发射功率吗？"></a></h2>
 
 <p>A:不可以，发射功率是固定的。</p>
 
-<h2>Q:为什么我用LightBlue(或其它app)修改iBeacons的UUID等参数之后，就无法再找到这个iBeacons节点？</h2>
+<h2>Q:为什么我用LightBlue(或其它app)修改iBeacons的UUID等参数之后，就无法再找到这个iBeacons节点？<a class="anchor" id="Q:为什么我用LightBlue(或其它app)修改iBeacons的UUID等参数之后，就无法再找到这个iBeacons节点？" href="#Q:为什么我用LightBlue(或其它app)修改iBeacons的UUID等参数之后，就无法再找到这个iBeacons节点？"></a></h2>
 
 <p>A:蓝牙4.0模块被连接之后，就会停止iBeacons的广播。请杀死LightBlue或其它app的进程。</p>
 
-<h2>Q:如何校正iOS应用的监测距离?</h2>
+<h2>Q:如何校正iOS应用的监测距离?<a class="anchor" id="Q:如何校正iOS应用的监测距离?" href="#Q:如何校正iOS应用的监测距离?"></a></h2>
 
 <p>A:iOS监测的距离是根据iBeacons的信号强度来判断的，在信号越强的情况下，效果越好，它检测出来的距离只能做为一个参考值，视具体环境而定。调整iBeacons的power值可以获得较好的距离检测效果，可采用示例应用AirLocate可以校正这个power值得。方法如下：</p>
 
-<ol>
-<li>是在空旷环境下，将iBeacons放在离iOS设备1米远的地方</li>
+<ol><li>是在空旷环境下，将iBeacons放在离iOS设备1米远的地方</li>
 <li>利用AirLocate的calibrate选项来重新计算一个较佳的power值。</li>
 <li>把校正后的power值更新到iBeacons设备上。</li>
-</ol><h2>Q:如何通过OAD远程升级固件？</h2>
+</ol><h2>Q:如何通过OAD远程升级固件？<a class="anchor" id="Q:如何通过OAD远程升级固件？" href="#Q:如何通过OAD远程升级固件？"></a></h2>
 
 <p>A: 请参考<a href="ibeacons-oad-upgrade-cn.html">iBeacons固件升级方法</a></p>
               </div>
@@ -63,7 +62,7 @@
           </div>
           <div class="admin">
             <div style="float: left;">
-              <small>Last edited by <b>yancan</b>, 2013-11-20 15:18:04</small>
+              <small>Last edited by <b>Linlinqi</b>, 2013-12-05 16:08:26</small>
             </div>
           </div>
         </div>
