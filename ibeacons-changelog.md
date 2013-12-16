@@ -2,6 +2,15 @@
 
 ## English Version
 
+### 1.3
+
+* Can change the advertising frequency through char FFF7
+* Add battery service 180F
+* Add device information service 180A
+* Change the default advertising frequency from 600ms to 900ms
+* The passcode is needed if you want to Read proximityUUID throuh FFF0->FFF1
+* The beacon will keep advertising after it is connected by other BLE device
+
 ### 1.1
 
 * Change the advertise interval from 100ms to 600ms. Prevent the power consume.
@@ -18,8 +27,8 @@ Initial version.
 ### 1.3
 
 * 可通过FFF7来修改广播频率
-* 加上了电量服务180f
-* 加上了设备信息服务180a
+* 加上了电量服务180F
+* 加上了设备信息服务180A
 * 默认广播频率由600ms一次改为900ms
 * 读取FFF0->FFF1的ProximityUUID也需要配对密码
 * 在其它蓝牙设备连接之后，也会继续保持广播状态
