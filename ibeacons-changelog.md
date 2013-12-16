@@ -2,7 +2,7 @@
 
 ## English Version
 
-### 1.3
+### 1.3 (20131216)
 
 * Can change the advertising frequency through char FFF7
 * Add battery service 180F
@@ -24,7 +24,7 @@ Initial version.
 
 ## 中文版
 
-### 1.3
+### 1.3 (20131216)
 
 * 可通过FFF7来修改广播频率
 * 加上了电量服务180F
