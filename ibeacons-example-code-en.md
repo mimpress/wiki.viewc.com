@@ -10,4 +10,4 @@
 ## Android
 
 * [An Android library providing APIs to interact with iBeacons](https://github.com/RadiusNetworks/android-ibeacon-service)
-
+* [Android demo for iBeacons](https://github.com/willowtreeapps/android-ibeacon)
