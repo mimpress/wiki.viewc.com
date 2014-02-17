@@ -3,7 +3,7 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>microduino</title>
+    <title>Microduino</title>
     <link rel="stylesheet" href="/css/screen.css" type="text/css" charset="utf-8" />
     <link rel="stylesheet" href="/css/gollum.css" type="text/css" charset="utf-8" />
     <link rel="stylesheet" href="/css/syntax.css" type="text/css" charset="utf-8" />
@@ -31,79 +31,128 @@
                   <a href="/Home.html">Home</a>
                 </div>
               </div>
-              <h1>microduino</h1>
+              <h1>Microduino</h1>
               <div class="content wikistyle gollum markdown">
-                <h1>Microduino<a class="anchor" id="Microduino" href="#Microduino"></a></h1>
+                <h1>Microduino</h1>
 
 <p>Microduino is arduino compatible board in an compact package.</p>
 
-<ul><li>Arduino uno compatible</li>
+<ul>
+<li>Arduino uno compatible</li>
 <li>Modular</li>
 <li>Stackable and flexible</li>
 <li>Open source</li>
-</ul><h2>Modular<a class="anchor" id="Modular" href="#Modular"></a></h2>
+</ul>
+
+<h2>Modular</h2>
 
 <p>Each module in the Microduino family has been optimized to include only the core circuits for it’s specific function to keep the size as low as possible at the best possible price. The main Microduino processor board includes the core processor circuitry, however the USB and DC power regulators have been offloaded to Microduino Shields. So for example, if you have a project that doesn’t need support for DC power above 5 volts, you don’t need to include the Power Microduino Shield, saving you money and keep the overall size down. Or if you don’t need USB on your project, you’d only need one USB Microduino Shield that you’d use to program your boards</p>
 
-<h2>Microduino Shields<a class="anchor" id="Microduino-Shields" href="#Microduino-Shields"></a></h2>
+<h2>Microduino Shields</h2>
 
 <p>Just like on the standard Arduino platform, where you can add expansion shields to add more features, the Microduino allows expansion by using Microduino Shields. Whether you want to add communication capabilities (like OLED, Ethernet, USB), sensor readings, drive a display or run motors for your swarm of tiny robots – there is a shield for that. The Microduino Shield interface uses a low cost, very miniature connector that supports all of the signals (and a few spare) that are supported on the standard Arduino Shield connectors. And being so compact, the board to board stackup height is only 3mm, meaning even adding a few Microduino Shields will still allow for an extremely compact final product.</p>
 
-<h2>Hardware overview<a class="anchor" id="Hardware-overview" href="#Hardware-overview"></a></h2>
+<h2>Hardware overview</h2>
 
-<h3>Core shields<a class="anchor" id="Core-shields" href="#Core-shields"></a></h3>
+<h3>Core shields</h3>
 
-<table><thead><tr><th>Boards</th>
+<table>
+<thead>
+<tr>
+<th>Boards</th>
 <th>Function</th>
 <th>Pictures</th>
-</tr></thead><tbody><tr><td><a href="microduino-core.html">Microduino-Core</a></td>
-<td>Core Module<br /> Arduino uno compatible <br />ATmega328P/168PA</td>
-<td><img src="http://farm3.staticflickr.com/2871/9112424435_7a5b6ff3ae_m.jpg" alt="core" /></td>
-</tr><tr><td><a href="microduino-core-plus.html">Microduino-Core+</a></td>
-<td>Core+ Module<br /> Two hardware serial port <br />ATmega328P/168PA</td>
-<td><img src="http://farm3.staticflickr.com/5532/9112424467_e7f4802bab_m.jpg" alt="core+" /></td>
-</tr><tr><td><a href="microduino-ft232r.html">Microduino-FT232R</a></td>
-<td>FTDI USB to Serial converter <br /> Using the board to download new sketches</td>
-<td><img src="http://farm4.staticflickr.com/3700/9112424487_bd4c0f29f9_m.jpg" alt="FT232R" /></td>
-</tr></tbody></table><h3>Extension shields<a class="anchor" id="Extension-shields" href="#Extension-shields"></a></h3>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="microduino-core.html">Microduino-Core</a></td>
+<td>Core Module<br> Arduino uno compatible <br>ATmega328P/168PA</td>
+<td><img src="http://farm3.staticflickr.com/2871/9112424435_7a5b6ff3ae_m.jpg" alt="core"></td>
+</tr>
+<tr>
+<td><a href="microduino-core-plus.html">Microduino-Core+</a></td>
+<td>Core+ Module<br> Two hardware serial port <br>ATmega328P/168PA</td>
+<td><img src="http://farm3.staticflickr.com/5532/9112424467_e7f4802bab_m.jpg" alt="core+"></td>
+</tr>
+<tr>
+<td><a href="microduino-ft232r.html">Microduino-FT232R</a></td>
+<td>FTDI USB to Serial converter <br> Using the board to download new sketches</td>
+<td><img src="http://farm4.staticflickr.com/3700/9112424487_bd4c0f29f9_m.jpg" alt="FT232R"></td>
+</tr>
+</tbody>
+</table>
 
-<table><thead><tr><th>Boards</th>
+<h3>Extension shields</h3>
+
+<table>
+<thead>
+<tr>
+<th>Boards</th>
 <th>Function</th>
 <th>Pictures</th>
-</tr></thead><tbody><tr><td><a href="microduino-ethernet.html">Microduino-ENC28J60 + Microduino-RJ45</a></td>
-<td>Ethernet shield<br /> IEEE 802.3 compatible</td>
-<td><img src="http://farm6.staticflickr.com/5461/9112424499_8836fe0970_m.jpg" alt="Ethernet" /></td>
-</tr><tr><td><a href="microduino-nrf24.html">Microduino-nRF24</a></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="microduino-ethernet.html">Microduino-ENC28J60 + Microduino-RJ45</a></td>
+<td>Ethernet shield<br> IEEE 802.3 compatible</td>
+<td><img src="http://farm6.staticflickr.com/5461/9112424499_8836fe0970_m.jpg" alt="Ethernet"></td>
+</tr>
+<tr>
+<td><a href="microduino-nrf24.html">Microduino-nRF24</a></td>
 <td>2.4G wireless shield</td>
-<td><img src="http://farm8.staticflickr.com/7405/9114647668_e693c0da52_m.jpg" alt="Ethernet" /></td>
-</tr><tr><td><a href="microduino-sd.html">Microduino-SD</a></td>
+<td><img src="http://farm8.staticflickr.com/7405/9114647668_e693c0da52_m.jpg" alt="Ethernet"></td>
+</tr>
+<tr>
+<td><a href="microduino-sd.html">Microduino-SD</a></td>
 <td>SD card shield</td>
-<td><img src="http://farm3.staticflickr.com/2891/9112424531_2e146b8410_m.jpg" alt="sd" /></td>
-</tr><tr><td><a href="microduino-bm.html">Microduino-BM</a></td>
+<td><img src="http://farm3.staticflickr.com/2891/9112424531_2e146b8410_m.jpg" alt="sd"></td>
+</tr>
+<tr>
+<td><a href="microduino-bm.html">Microduino-BM</a></td>
 <td>Battery manager shield</td>
-<td><img src="http://farm8.staticflickr.com/7420/9114647636_a21ed1cec7_m.jpg" alt="bm" /></td>
-</tr><tr><td><a href="microduino-oled.html">Microduino-OLED</a></td>
+<td><img src="http://farm8.staticflickr.com/7420/9114647636_a21ed1cec7_m.jpg" alt="bm"></td>
+</tr>
+<tr>
+<td><a href="microduino-oled.html">Microduino-OLED</a></td>
 <td>OLED shield</td>
-<td><img src="http://farm8.staticflickr.com/7297/9114647498_ddd81a3df1_m.jpg" alt="OLED" /></td>
-</tr></tbody></table><h3>Shield Shields<a class="anchor" id="Shield-Shields" href="#Shield-Shields"></a></h3>
+<td><img src="http://farm8.staticflickr.com/7297/9114647498_ddd81a3df1_m.jpg" alt="OLED"></td>
+</tr>
+</tbody>
+</table>
 
-<table><thead><tr><th>Boards</th>
+<h3>Shield Shields</h3>
+
+<table>
+<thead>
+<tr>
+<th>Boards</th>
 <th>Function</th>
 <th>Pictures</th>
-</tr></thead><tbody><tr><td><a href="microduino-test.html">Test Microduino</a></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="microduino-test.html">Test Microduino</a></td>
 <td>Shield shield</td>
-<td><img src="http://farm6.staticflickr.com/5528/9114647784_7aab9474e9_m.jpg" alt="shield" /></td>
-</tr></tbody></table><h2>Hardware overview and specifications<a class="anchor" id="Hardware-overview-and-specifications" href="#Hardware-overview-and-specifications"></a></h2>
+<td><img src="http://farm6.staticflickr.com/5528/9114647784_7aab9474e9_m.jpg" alt="shield"></td>
+</tr>
+</tbody>
+</table>
 
-<p><img src="http://farm6.staticflickr.com/5448/9114745446_0da8a3279c.jpg" alt="overview" /></p>
+<h2>Hardware overview and specifications</h2>
 
-<p><img src="http://farm6.staticflickr.com/5503/9112581575_fc8c76da99_b.jpg" alt="Ports" /></p>
+<p><img src="http://farm6.staticflickr.com/5448/9114745446_0da8a3279c.jpg" alt="overview"></p>
+
+<p><img src="http://farm6.staticflickr.com/5503/9112581575_fc8c76da99_b.jpg" alt="Ports"></p>
+
               </div>
             </div>
           </div>
           <div class="admin">
             <div style="float: left;">
-              <small>Last edited by <b>Linlinqi</b>, 2013-12-05 16:08:26</small>
+              <small>Last edited by <b>Linlinqi</b>, 2014-02-17 17:37:31</small>
             </div>
           </div>
         </div>
