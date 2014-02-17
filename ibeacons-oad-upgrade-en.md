@@ -7,32 +7,21 @@
 1. Open Multitool in iPhone，follow these step to upgrade.
 1. Found the iBeacons module and tap it
 
- ![oad_1](http://img.viewc.com/oad/oad_1.png)
+ ![oad_1](http://img.viewc.com/oad/oad_9.png)
 
-1. Click Profiles at bottom left
+1. Click "Update FW" at bottom right
 
- ![oad_2](http://img.viewc.com/oad/oad_2.png)
+ ![oad_2](http://img.viewc.com/oad/oad_10.png)
 
-1. Click TI OAD Profile
+1. Select "safe mode", then tap "Select FW File"
 
- ![oad_3](http://img.viewc.com/oad/oad_3.png)
-
-1. Click OK
-
- ![oad_4](http://img.viewc.com/oad/oad_4.png)
-
-1. Click Upload ... image
-
- ![oad_5](http://img.viewc.com/oad/oad_5.png)
+ ![oad_3](http://img.viewc.com/oad/oad_11.png)
 
 1. Click Shared files
 
- ![oad_6](http://img.viewc.com/oad/oad_6.png)
+ ![oad_4](http://img.viewc.com/oad/oad_12.png)
 
-1. Click the bin file to upgrade
+1. Click the bin file to upgrade. Please keep the iPhone awake.
 
- ![oad_7](http://img.viewc.com/oad/oad_7.png)
+ ![oad_5](http://img.viewc.com/oad/oad_13.png)
 
-1. The screen for upgrade. Please keep the iPhone awake.
-
- ![oad_8](http://img.viewc.com/oad/oad_8.png)
